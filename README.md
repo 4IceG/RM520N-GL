@@ -19,6 +19,8 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 ## Firmware:
 <a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing" title="RM520NGLAAR03A01M4G_01.202.01.202">RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12)</a>
 
+<a href="https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip" title="RM520NGLAAR01A07M4G_01.201.01.201">RM520NGLAAR01A07M4G_01.201.01.201</a>
+
 ## AT commands:
 <a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG50xQ%26RM5xxQ_Series_AT_Commands_Manual_V1.1.1_Preliminary_20201009-2.pdf" title="Quectel RM520N AT Commands Manual V1.1.1">Quectel RM520N AT Commands Manual V1.1.1</a>
 
