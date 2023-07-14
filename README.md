@@ -6,9 +6,11 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 <a href="https://drive.google.com/file/d/1UAgRqwF_ygA5USnoJLXfBhvlh5NrNgke/view?usp=sharing" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) MBIM V1.3.1</a>
 
-<a href="https://drive.google.com/file/d/1hrXW2u9Jrt4M9jzB1mh8wpOKAGuEXoTN/view?usp=sharing" title="QFlash.V5.1.EN">QFlash_V6.3_CN</a>
+<a href="https://drive.google.com/file/d/1hrXW2u9Jrt4M9jzB1mh8wpOKAGuEXoTN/view?usp=sharing" title="QFlash.V5.1.EN">QFlash_V6.3_EN</a>
 
 <a href="https://drive.google.com/file/d/1j3Wy_znL2ajt2_Rc4gejgoJRcp8ieQLm/view?usp=sharing" title="QFlash.V5.8.EN">QFlash.V5.8.EN</a>
+
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Toolz/QFirehose_Linux_Android_V1.4.11.zip" title="QFirehose_Linux_Android_V1.4.11">QFirehose_V1.4.11</a>
 
 <a href="https://drive.google.com/file/d/1Gx1Ab5uLSAOaIlWzKHS17qE3Wo9hVQ7i/view?usp=sharing" title="Qnavigator_V1.6.10">Qnavigator_V1.6.10</a>
 
