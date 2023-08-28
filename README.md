@@ -40,6 +40,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 ## Description of antenna connection:
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/antenasmall.png?raw=true)
+![](https://github.com/4IceG/Personal_data/blob/master/5G/rm520n-gl.PNG?raw=true)
 
 ## Specification:
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-1.png?raw=true)
