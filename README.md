@@ -34,9 +34,11 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 <a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing" title="RM520NGLAAR01A06M4G_12.001.12.001">RM520NGLAAR01A06M4G_12.001.12.001</a>
 
 ## AT commands:
-<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG50xQ%26RM5xxQ_Series_AT_Commands_Manual_V1.1.1_Preliminary_20201009-2.pdf" title="Quectel RM520N AT Commands Manual V1.1.1">Quectel RM520N AT Commands Manual V1.1.1</a>
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG50xQ_RM5xxQ_Series_AT_Commands_Manual_V1.2.pdf" title="Quectel RM520N AT Commands Manual V1.2">Quectel RM520N AT Commands Manual V1.2</a>
 
-<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG520N%26RG52xF%26RG530F%26RM520N%26RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf" title="Quectel RM520N AT Commands Manual V1.0.0">Quectel RM520N AT Commands Manual V1.0.0</a>
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG50xQ%26RM5xxQ_Series_AT_Commands_Manual_V1.1.1_Preliminary_20201009-2.pdf" title="Quectel RM520N AT Commands Manual V1.1.1">Quectel RM520N AT Commands Manual V1.1</a>
+
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG520N%26RG52xF%26RG530F%26RM520N%26RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf" title="Quectel RM520N AT Commands Manual V1.0.0">Quectel RM520N AT Commands Manual V1.0</a>
 
 ## Description of antenna connection:
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/antenasmall.png?raw=true)
