@@ -2,9 +2,11 @@
 Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications. You will find Tools, Docs, and Firmware for it here.
 ## Windows Autoinstaller:
 **[RM520 Resource Package DOWNLOAD](https://drive.google.com/file/d/1KQ-5zkfHT9co40hgjPlMQWXxZuru8AYx/view?usp=drive_link)**
+
 **Note**
 
 Unfortunately due to GitHub's 100MB per file limit, Qflash 6.4 and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](https://drive.google.com/file/d/1KQ-5zkfHT9co40hgjPlMQWXxZuru8AYx/view?usp=drive_link)
+
 **What this does**
 
 Proceeding yes with any option will create C:\Quectel\
