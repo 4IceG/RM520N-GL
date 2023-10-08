@@ -58,7 +58,7 @@ It's a yes/no .cmd file that when ran, requests administrative privileges, then 
 
 <a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing" title="RM520NGLAAR01A06M4G_12.001.12.001">RM520NGLAAR01A06M4G_12.001.12.001</a>
 
-<a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing" title="RM520NGLAAR03A01M4G_01.202.01.202">RM520NGLAAR03A01M4G_01.202.01.202 </a>
+<a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing" title="RM520NGLAAR03A01M4G_01.202.01.202">RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12)</a>
 ## AT commands:
 <a href="https://github.com/iamromulan/RM520N-GL/blob/main/Documents/Quectel_RG520N%26RG525F%26RG5x0F%26RM5x0N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20230731.pdf" title="Quectel RM520N AT Commands Manual V1.0.0">Quectel RM520N AT Commands Manual V1.0 
 (2023-07-31)</a>
