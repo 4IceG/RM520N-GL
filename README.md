@@ -28,9 +28,10 @@ Firmware is packed up in a .zip file like this: `RM520NGLAAR01A07M4G_01.203.01.2
 * Or just somewhere with no spaces in the folder name on any folder on the way to it (For example: C:\Quectel\flash will work  C:\Qu ectel\fla sh will not work)
 #### 2. Open device manager, go to ports, take note of what the port number is for the DM port. ![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/ports.png?raw=true)
 * In this case the DM port is port 11
- #### 3. Open Qflash, under COM port set it to the DM port. In my case it was 11 so I will use 11. Set the baudrate to 460800. ![COMandBAUD](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/portbauadqflash.png?raw=true)
-#### 4. Click Load FW files, then go to the update folder you copied from your firmware zip, go to firehose, then select/open the "prog firehose" file. ![selectPROGfirehose](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/selectprogfirehose.png?raw=true)
-#### 5. Click Start! The firmware will flash and the modem will reboot. After it reboots and comes back up Qflash should say "PASS" indicating it was successful.
+ #### 3. Open Qflash, under COM port set it to the DM port. In my case it was 11 so I will use 11. Set the baudrate to 460800. 
+ ![COMandBAUD](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/portbauadqflash.png?raw=true)
+ #### 4. Click Load FW files, then go to the update folder you copied from your firmware zip, go to firehose, then select/open the "prog firehose" file. ![selectPROGfirehose](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/selectprogfirehose.png?raw=true)
+ #### 5. Click Start! The firmware will flash and the modem will reboot. After it reboots and comes back up Qflash should say "PASS" indicating it was successful.
 ## Toolz:
 <a href="https://drive.google.com/file/d/1nB-yBeqBCMLUXKLWNYVxs8VX6AXw9eOn/view?usp=sharing" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) NDIS V2.4.6</a> 
 (Included in Autoinstaller)
