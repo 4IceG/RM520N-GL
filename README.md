@@ -20,7 +20,7 @@ It's a yes/no .cmd file that when ran, requests administrative privileges, then 
 * Extract zip file anywhere
 * Run  `RM520utilitiesINSTALLER.cmd`
 * Press y or n (yes or no) to respond to each question
-## How to install firmware/use Qnavigator (Windows) : 
+## How to install firmware with Qflash (Windows) : 
 ### If you installed by using the autoinstaller: 
 C:\Quectel\firmware to store your firmware zips was created and C:\Quectel\flash was created to flash the firmware from.
 Firmware is packed up in a .zip file like this: `RM520NGLAAR01A07M4G_01.203.01.203`
