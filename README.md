@@ -49,16 +49,22 @@ It's a yes/no .cmd file that when ran, requests administrative privileges, then 
 <a href="https://drive.google.com/file/d/12H3eFDhQg2ZTavlqMZiWO0OJ-pLozfWL/view?usp=sharing">RM520NGLAAR01A08M4G_01.200.01.200
  (2023-07-20)</a> (Included in Autoinstaller)
 
-<a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=sharing" title="RM520NGLAAR01A07M4G_01.203.01.203">RM520NGLAAR01A07M4G_01.203.01.203</a> 
-(Included in Autoinstaller)
+<a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=sharing" title="RM520NGLAAR01A07M4G_01.203.01.203">RM520NGLAAR01A07M4G_01.203.01.203 
+(2023-07-12)</a> (Included in Autoinstaller)
 
-<a href="https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip" title="RM520NGLAAR01A07M4G_01.201.01.201">RM520NGLAAR01A07M4G_01.201.01.201</a>
+<a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing" title="RM520NGLAAR03A01M4G_01.202.01.202">RM520NGLAAR03A01M4G_01.202.01.202 
+(2023-05-12)</a>
 
-<a href="https://drive.google.com/file/d/1NWle7w6LHubee5l4n7EsMuExtVj36lwV/view?usp=sharing" title="RM520NGLAAR01A06M4G_01.200.01.200 2">RM520NGLAAR01A06M4G_01.200.01.200</a>
+<a href="https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip" title="RM520NGLAAR01A07M4G_01.201.01.201">RM520NGLAAR01A07M4G_01.201.01.201 
+(2023-03-27)</a>
 
-<a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing" title="RM520NGLAAR01A06M4G_12.001.12.001">RM520NGLAAR01A06M4G_12.001.12.001</a>
+<a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing" title="RM520NGLAAR01A06M4G_12.001.12.001">RM520NGLAAR01A06M4G_12.001.12.001 
+(2023-01-20)</a>
 
-<a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing" title="RM520NGLAAR03A01M4G_01.202.01.202">RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12)</a>
+<a href="https://drive.google.com/file/d/1NWle7w6LHubee5l4n7EsMuExtVj36lwV/view?usp=sharing" title="RM520NGLAAR01A06M4G_01.200.01.200 2">RM520NGLAAR01A06M4G_01.200.01.200 
+(2022-12-26)</a>
+
+
 ## AT commands:
 <a href="https://github.com/iamromulan/RM520N-GL/blob/main/Documents/Quectel_RG520N%26RG525F%26RG5x0F%26RM5x0N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20230731.pdf" title="Quectel RM520N AT Commands Manual V1.0.0">Quectel RM520N AT Commands Manual V1.0 
 (2023-07-31)</a>
