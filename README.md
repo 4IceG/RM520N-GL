@@ -1,4 +1,4 @@
-﻿# RM520N-GL
+# RM520N-GL
 Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications. You will find Tools, Docs, and Firmware for it here.
 ## Windows Autoinstaller:
 **[RM520 Resource Package DOWNLOAD](https://drive.google.com/file/d/1aoDb2oOpojMr-3OixEe32CO2IRffDBPE/view?usp=sharing)**
@@ -21,17 +21,32 @@ It's a yes/no .cmd file that when ran, requests administrative privileges, then 
 * Run  `RM520utilitiesINSTALLER.cmd`
 * Press y or n (yes or no) to respond to each question
 ## How to install firmware with Qflash (Windows) : 
+Connect your modem to your computer by USB. Either through a USB to m.2 B-key sled (should have a sim slot as well) or by using an RGMII board's USB C port.
 ### If you installed by using the autoinstaller: 
 C:\Quectel\firmware to store your firmware zips was created and C:\Quectel\flash was created to flash the firmware from.
 Firmware is packed up in a .zip file like this: `RM520NGLAAR01A07M4G_01.203.01.203`
 #### 1. Open your firmware .zip and copy the `update` folder to C:\Quectel\flash 
 * Or just somewhere with no spaces in the folder name on any folder on the way to it (For example: C:\Quectel\flash will work  C:\Qu ectel\fla sh will not work)
-#### 2. Open device manager, go to ports, take note of what the port number is for the DM port. ![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/ports.png?raw=true)
+#### 2. Open device manager, go to ports, take note of what the port number is for the DM port. 
+![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/ports.png?raw=true)
 * In this case the DM port is port 11
  #### 3. Open Qflash, under COM port set it to the DM port. In my case it was 11 so I will use 11. Set the baudrate to 460800. 
  ![COMandBAUD](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/portbauadqflash.png?raw=true)
  #### 4. Click Load FW files, then go to the update folder you copied from your firmware zip, go to firehose, then select/open the "prog firehose" file. ![selectPROGfirehose](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/selectprogfirehose.png?raw=true)
  #### 5. Click Start! The firmware will flash and the modem will reboot. After it reboots and comes back up Qflash should say "PASS" indicating it was successful.
+
+## How to use Qnavigator to send AT commands
+
+Connect your modem to your computer by USB. Either through a USB to m.2 B-key sled (should have a sim slot as well) from Amazon or by using an RGMII board's USB C port.
+### If you installed by using the autoinstaller: 
+You should already have a desktop icon and start menu shortcut for Qnavigator.
+#### 1. 
+Open Qnavagator, you'll be presented with this screen, just press escape (ESC) to skip their directions. 
+![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/qnavfirst.png?raw=true)
+#### 2.
+Uncheck Automatic initialization (circled in red) and click the COM plug icon (circled in green)
+![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/qnavsec.png?raw=true)
+#### 3. To be continued.....
 ## Toolz:
 <a href="https://drive.google.com/file/d/1nB-yBeqBCMLUXKLWNYVxs8VX6AXw9eOn/view?usp=sharing" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) NDIS V2.4.6</a> 
 (Included in Autoinstaller)
