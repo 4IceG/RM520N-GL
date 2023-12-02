@@ -28,11 +28,12 @@ Firmware is packed up in a .zip file like this: `RM520NGLAAR01A07M4G_01.203.01.2
 #### 1. Open your firmware .zip and copy the `update` folder to C:\Quectel\flash 
 * Or just somewhere with no spaces in the folder name on any folder on the way to it (For example: C:\Quectel\flash will work  C:\Qu ectel\fla sh will not work)
 #### 2. Open device manager, go to ports, take note of what the port number is for the DM port. 
-![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/ports.png?raw=true)
+![COM ports](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/ports.png?raw=true)
 * In this case the DM port is port 11
  #### 3. Open Qflash, under COM port set it to the DM port. In my case it was 11 so I will use 11. Set the baudrate to 460800. 
- ![COMandBAUD](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/portbauadqflash.png?raw=true)
- #### 4. Click Load FW files, then go to the update folder you copied from your firmware zip, go to firehose, then select/open the "prog firehose" file. ![selectPROGfirehose](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/selectprogfirehose.png?raw=true)
+ ![COMandBAUD](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/portbauadqflash.png?raw=true)
+ #### 4. Click Load FW files, then go to the update folder you copied from your firmware zip, go to firehose, then select/open the "prog firehose" file. 
+ ![selectPROGfirehose](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/selectprogfirehose.png?raw=true)
  #### 5. Click Start! The firmware will flash and the modem will reboot. After it reboots and comes back up Qflash should say "PASS" indicating it was successful.
 
 ## How to use Qnavigator to send AT commands
@@ -40,13 +41,14 @@ Firmware is packed up in a .zip file like this: `RM520NGLAAR01A07M4G_01.203.01.2
 Connect your modem to your computer by USB. Either through a USB to m.2 B-key sled (should have a sim slot as well) from Amazon or by using an RGMII board's USB C port.
 ### If you installed by using the autoinstaller: 
 You should already have a desktop icon and start menu shortcut for Qnavigator.
-#### 1. 
-Open Qnavagator, you'll be presented with this screen, just press escape (ESC) to skip their directions. 
-![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/qnavfirst.png?raw=true)
-#### 2.
-Uncheck Automatic initialization (circled in red) and click the COM plug icon (circled in green)
-![COM ports](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/qnavsec.png?raw=true)
-#### 3. To be continued.....
+#### 1. Open Qnavagator, you'll be presented with this screen, just press escape (ESC) to skip their directions. 
+![COM ports](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/qnavfirst.png?raw=true)
+#### 2. Uncheck Automatic initialization (circled in red) and click the COM plug icon (circled in green)
+![COM ports](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/qnavsec.png?raw=true)
+#### 3. Click ok, the correct port will already be auto selected
+![qnavCOMport](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/qnavport.png?raw=true)
+#### 4. Click Connect to module, then in the lower right type your AT command and press send. The response will be shown above.
+![at](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/qnavat.png?raw=true)
 ## Toolz:
 <a href="https://drive.google.com/file/d/1nB-yBeqBCMLUXKLWNYVxs8VX6AXw9eOn/view?usp=sharing" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) NDIS V2.4.6</a> 
 (Included in Autoinstaller)
@@ -111,3 +113,4 @@ Uncheck Automatic initialization (circled in red) and click the COM plug icon (c
 ## Specification:
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-1.png?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-2.png?raw=true)
+
