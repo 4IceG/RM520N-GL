@@ -33,12 +33,16 @@ Firmware is packed up in a .zip file like this: `RM520NGLAAR01A07M4G_01.203.01.2
  #### 4. Click Load FW files, then go to the update folder you copied from your firmware zip, go to firehose, then select/open the "prog firehose" file. ![selectPROGfirehose](https://github.com/iamromulan/RM520N-GL/blob/main/readmeimages/selectprogfirehose.png?raw=true)
  #### 5. Click Start! The firmware will flash and the modem will reboot. After it reboots and comes back up Qflash should say "PASS" indicating it was successful.
 ## Toolz:
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Toolz/Quectel_Windows_USB_Driver(Q)_NDIS_V2.6.0.zip" title="Quectel_Windows_USB_DriverQ_NDIS_V2.6.0">Quectel Windows USB Driver(Q) NDIS V2.6.0</a> 
+
 <a href="https://drive.google.com/file/d/1nB-yBeqBCMLUXKLWNYVxs8VX6AXw9eOn/view?usp=sharing" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) NDIS V2.4.6</a> 
 (Included in Autoinstaller)
 
 <a href="https://drive.google.com/file/d/1UAgRqwF_ygA5USnoJLXfBhvlh5NrNgke/view?usp=sharing" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) MBIM V1.3.1</a>
 
 <a href="https://www.waveshare.com/w/upload/d/df/Quectel_Windows_USB_Driver%28Q%29_RNDIS_V1.0.9.zip" title="RNDIS_V1.0.9.zip">Quectel Windows USB Driver(Q) RNDIS V1.0.9</a>
+
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Toolz/Quectel_LTE%265G_Windows_USB_Driver_V2.2.3.zip" title="Quectel_LTE&5G_Windows_USB_Driver_V2.2.3.zip">Quectel LTE&5G Windows USB Driver V2.2.3</a>
 
 [QFlash V6.4 EN](https://drive.google.com/file/d/13a4-8IZF5sAWAiC8hf6OKdC1wjtAVaF_/view?usp=sharing)
 (Included in Autoinstaller)
