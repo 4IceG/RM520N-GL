@@ -86,30 +86,42 @@ goto menu
 :install_drivers
 cls
 echo Driver Options:
-echo 1) (Recommended)Install NDIS Driver (For usb mode: AT+QCFG="usbnet",0)
-echo 2) Install MBIM Driver (For usb mode: AT+QCFG="usbnet",2)
-echo 3) Install RNDIS Driver (For usb mode: AT+QCFG="usbnet",3)
-echo 4) Main Menu
+echo 1) (Recommended) Install NDIS Driver 2.6.0 (For usb mode: AT+QCFG="usbnet",0)
+echo 2) Install NDIS Driver 2.4.6 (For usb mode: AT+QCFG="usbnet",0)
+echo 3) Install MBIM Driver (For usb mode: AT+QCFG="usbnet",2)
+echo 4) Install RNDIS Driver (For usb mode: AT+QCFG="usbnet",3)
+echo 5) Main Menu
 echo.
 set /p driver_choice=Select a driver option: 
 
 if "%driver_choice%"=="1" goto driver_option_1
 if "%driver_choice%"=="2" goto driver_option_2
 if "%driver_choice%"=="3" goto driver_option_3
-if "%driver_choice%"=="4" goto menu
+if "%driver_choice%"=="4" goto driver_option_4
+if "%driver_choice%"=="5" goto menu
 goto menu
 
 :driver_option_1
-echo Downloading and Running Installer for NDIS Driver...
+echo Downloading and Running Installer for NDIS Driver 2.6.0...
+megatools dl https://mega.nz/file/GVMS1D7K#ogA1oLOwhkRlLWDDhisG9p0k1H_jhcAJOesHHV-XKUg
+REM Extract Quectel NDIS Driver 2.6.0
+powershell -Command "Expand-Archive -Force '%~dp0\Quectel_Windows_USB_Driver(Q)_NDIS_V2.6.0.zip' 'C:\Quectel\'"
+REM Execute setup.exe and wait for it to close
+powershell -Command "Start-Process 'C:\Quectel\Quectel_Windows_USB_Driver(Q)_NDIS_V2.6.0\Setup Quectel_Windows_USB_Driver(Q)_NDIS_V2.6.0.exe'"
+del Quectel_Windows_USB_Driver(Q)_NDIS_V2.6.0.zip
+goto menu
+
+:driver_option_2
+echo Downloading and Running Installer for NDIS Driver 2.4.6...
 megatools dl https://mega.nz/file/jFlnkIoC#2HSmvJTVQvcCjN8xYj6G2UxY91khYbLdvTF9NoXRGfQ
-REM Extract Quectel NDIS Driver
+REM Extract Quectel NDIS Driver 2.4.6
 powershell -Command "Expand-Archive -Force '%~dp0\Quectel_Windows_USB_DriverQ_NDIS_V2.4.6.zip' 'C:\Quectel\'"
 REM Execute setup.exe and wait for it to close
 powershell -Command "Start-Process 'C:\Quectel\NDISsetup.exe'"
 del Quectel_Windows_USB_DriverQ_NDIS_V2.4.6.zip
-goto Install_drivers
+goto menu
 
-:driver_option_2
+:driver_option_3
 echo Downloading and Running Installer for MBIM Driver...
 megatools dl https://mega.nz/file/XctiBLRQ#TPjrW5AKIcct9giF7aZlaxTwUM9Huwpa0mOls4xP5NE
 REM Extract Quectel MBIM Driver
@@ -117,9 +129,9 @@ powershell -Command "Expand-Archive -Force '%~dp0\Quectel_Windows_USB_Driver(Q)_
 REM Execute setup.exe and wait for it to close
 powershell -Command "Start-Process 'C:\Quectel\mbimsetup.exe'"
 del Quectel_Windows_USB_Driver(Q)_MBIM_V1.3.1.zip
-goto Install_drivers
+goto menu
 
-:driver_option_3
+:driver_option_4
 echo Downloading and Running Installer for RNDIS Driver...
 megatools dl https://mega.nz/file/Sclj0C5Q#EJ3xr60g99thcuyVav42bOjs-z_Iu-Qv3hYycrJAjbk
 REM Extract Quectel NDIS Driver V2.4.6
@@ -127,7 +139,7 @@ powershell -Command "Expand-Archive -Force '%~dp0\Quectel_Windows_USB_Driver(Q)_
 REM Execute setup.exe and wait for it to close
 powershell -Command "Start-Process 'C:\Quectel\RNDISsetup.exe'"
 del Quectel_Windows_USB_Driver(Q)_RNDIS_V1.0.9.zip
-goto Install_drivers
+goto menu
 
 
 :install_qflash
