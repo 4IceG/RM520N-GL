@@ -1,5 +1,15 @@
 # RM520N-GL
-Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications. You will find Tools, Docs, and Firmware for it here.
+The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications. You will find Tools, Docs, and Firmware for it here, as well as a .cmd that install everything for windows.
+# Table of Contents
+- [Windows Autoinstaller](#windows-autoinstaller)
+- [How to install firmware with Qflash (Windows)](#how-to-install-firmware-with-qflash-on-windows)
+- [How to use Qnavigator to send AT commands](#how-to-use-qnavigator-to-send-at-commands)
+- [Toolz](#toolz)
+- [Stock Firmware](#stock-firmware)
+- [Custom Firmware](#custom-firmware)
+- [AT commands](#at-commands)
+- [Specification](#specification)
+
 ## Windows Autoinstaller:
 **[RM520 Resource Package DOWNLOAD](https://mega.nz/file/PJtn0Ayb#h46nA-S6TH-nmTnoExahFCU2skyY3T3GtGxA8h9RnZY)**
 
@@ -20,7 +30,7 @@ It's a yes/no .cmd file that when ran, requests administrative privileges, then 
 * Extract zip file anywhere
 * Run  `RM520utilitiesINSTALLER.cmd`
 * Press y or n (yes or no) to respond to each question
-## How to install firmware with Qflash (Windows) : 
+## How to install firmware with Qflash on Windows 
 Connect your modem to your computer by USB. Either through a USB to m.2 B-key sled (should have a sim slot as well) or by using an RGMII board's USB C port.
 ### If you installed by using the autoinstaller: 
 C:\Quectel\firmware to store your firmware zips was created and C:\Quectel\flash was created to flash the firmware from.
@@ -73,7 +83,7 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 
 <a href="https://drive.google.com/file/d/1xVw5IBowlKn7HPqfyYfoZdBx1p5Xs7aU/view?usp=sharing" title="QCOM_V1.6">QCOM V1.6</a>
 
-## Stock Firmware:
+## Stock Firmware
 <a href="https://drive.google.com/file/d/12H3eFDhQg2ZTavlqMZiWO0OJ-pLozfWL/view?usp=sharing">RM520NGLAAR01A08M4G_01.200.01.200
  (2023-07-20)</a> (Included in Autoinstaller)
 
@@ -96,7 +106,7 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 #### Firmware for use in RGMII setups:
 [Arixolink RM520NGLAAR03A01M4G OCPU_BETA_20230419C 
 (R01.00.04_FULL_2023-11-07)](https://drive.google.com/file/d/1fNUr2U8Fn-yDcfZqaNznpfcerbijjKyo/view?fbclid=IwAR3ICR7vlvLSgOUv42ejIbsjaxq3E-kYFIzz-6r7PZZTQGXZM6azT8vcVWc)
-## AT commands:
+## AT commands
 <a href="https://github.com/iamromulan/RM520N-GL/blob/main/Documents/Quectel_RG520N%26RG525F%26RG5x0F%26RM5x0N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20230731.pdf" title="Quectel RM520N AT Commands Manual V1.0.0">Quectel RM520N AT Commands Manual V1.0 
 (2023-07-31)</a>
 
@@ -113,7 +123,8 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/antenasmall.png?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/rm520n-gl.PNG?raw=true)
 
-## Specification:
+## Specification
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-1.png?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-2.png?raw=true)
+
 
