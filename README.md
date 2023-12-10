@@ -59,6 +59,9 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 ![at](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/qnavat.png?raw=true)
 ## Toolz:
 ### Windows:
+
+<a href="https://mega.nz/file/GVMS1D7K#ogA1oLOwhkRlLWDDhisG9p0k1H_jhcAJOesHHV-XKUg">Quectel Windows USB Driver(Q) NDIS V2.6.0</a>
+
 <a href="https://mega.nz/file/jFlnkIoC#2HSmvJTVQvcCjN8xYj6G2UxY91khYbLdvTF9NoXRGfQ">Quectel Windows USB Driver(Q) NDIS V2.4.6</a> 
 
 <a href="https://mega.nz/file/XctiBLRQ#TPjrW5AKIcct9giF7aZlaxTwUM9Huwpa0mOls4xP5NE" title="Quectel_Windows_USB_DriverQ_NDIS_V2.4.6">Quectel Windows USB Driver(Q) MBIM V1.3.1</a>
