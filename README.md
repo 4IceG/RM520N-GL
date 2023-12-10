@@ -15,6 +15,7 @@ You will find Tools, Docs, and Firmware for it here, as well as a .cmd that inst
 - [Specification](#specification)
 
 ## Windows Autoinstaller:
+![COM ports](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/repocmd.png?raw=true)
 **[RM520 Resource Package DOWNLOAD](https://mega.nz/file/LdExyA7L#_XOa8fjVgHfH8k6cwnBelqA5ntIzzbEPnQdQhvAP6Jg)**
 
 **Note**
