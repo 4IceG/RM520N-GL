@@ -1,5 +1,7 @@
 # RM520N-GL
-The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications. You will find Tools, Docs, and Firmware for it here, as well as a .cmd that install everything for windows.
+The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications. 
+
+You will find Tools, Docs, and Firmware for it here, as well as a .cmd that installs everything for windows.
 # Table of Contents
 - [Windows Autoinstaller](#windows-autoinstaller)
 - [How to install firmware with Qflash (Windows)](#how-to-install-firmware-with-qflash-on-windows)
@@ -13,25 +15,17 @@ The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applicat
 - [Specification](#specification)
 
 ## Windows Autoinstaller:
-**[RM520 Resource Package DOWNLOAD](https://mega.nz/file/PJtn0Ayb#h46nA-S6TH-nmTnoExahFCU2skyY3T3GtGxA8h9RnZY)**
+**[RM520 Resource Package DOWNLOAD](https://mega.nz/file/LdExyA7L#_XOa8fjVgHfH8k6cwnBelqA5ntIzzbEPnQdQhvAP6Jg)**
 
 **Note**
 
-Unfortunately due to GitHub's 100MB per file limit, Qflash 6.4 and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](https://mega.nz/file/PJtn0Ayb#h46nA-S6TH-nmTnoExahFCU2skyY3T3GtGxA8h9RnZY)
+Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](https://mega.nz/file/LdExyA7L#_XOa8fjVgHfH8k6cwnBelqA5ntIzzbEPnQdQhvAP6Jg) and by using their download links listed here.
 
 **What this does**
 
-Proceeding yes with any option will create C:\Quectel\
-
-It's a yes/no .cmd file that when ran, requests administrative privileges, then asks to extract and run the NDIS 2.4.6 driver installer (y/n), asks to install QFlash 6.4 (y/n), asks to copy over the 2 latest firmware zips (that this repository has) to C:\Quectel\firmware (y/n), then asks to install Qnavigator V1.6.10 (y/n)
-* All are installed to C:\Quectel\
-* Installing Qflash will create a firmware folder and a flash folder in C:\Quectel\ (flash meant for what you are flashing; firmware meant for your firmware zips)
-* Installing Qflash and/or Qnavigator will create desktop and start menu shortcuts 
-
-**Directions**
-* Extract zip file anywhere
-* Run  `RM520utilitiesINSTALLER.cmd`
-* Press y or n (yes or no) to respond to each question
+It is a menu style cmd script that will let you install Qflash, Qnav, Qcom, and ADB tools. It will also let you download firmware and PDFs. It heavily relies on megatools, a cli for downloading files from mega.nz
+It will temporarily download megatools to the directory its ran at first use and delete them when exiting using the menu option.
+All files installed/downloaded will go to C:\Quectel\
 ## How to install firmware with Qflash on Windows 
 Connect your modem to your computer by USB. Either through a USB to m.2 B-key sled (should have a sim slot as well) or by using an RGMII board's USB C port.
 ### If you installed by using the autoinstaller: 
