@@ -57,27 +57,30 @@ if not exist "%~dp0\megatools.zip" (
 goto menu
 REM Main Menu
 :menu
+cd /d "%~dp0"
 cls
 echo Main Menu
 echo Visit https://github.com/iamromulan/ for more
 echo Please select an option:
 echo 1) Install Drivers
 echo 2) Install Qflash
-echo 3) RM520N-GL AT command PDFs downloads
+echo 3) RM520N-GL AT command and other PDFs downloads
 echo 4) RM520N-GL firmware downloads
 echo 5) Install Qnavigator
 echo 6) ADB setup
-echo 7) Exit
+echo 7) Install QCOM
+echo 8) Exit
 echo.
 set /p choice=Please select a choice: 
 
 if "%choice%"=="1" goto install_drivers
 if "%choice%"=="2" goto install_qflash
-if "%choice%"=="3" goto get_atpdfs
+if "%choice%"=="3" goto get_pdfs
 if "%choice%"=="4" goto get_firmware
 if "%choice%"=="5" goto install_qnavigator
 if "%choice%"=="6" goto adb_setup
-if "%choice%"=="7" goto end_script
+if "%choice%"=="7" goto install_qcom
+if "%choice%"=="8" goto end_script
 goto menu
 
 :install_drivers
@@ -167,9 +170,52 @@ powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateS
 del QFlash_V6.4.zip
 goto menu
 
-:get_atpdfs
-echo Come back soon! Work in progress!
-pause
+:get_pdfs
+if not exist "C:\Quectel\Docs\" (
+    echo Creating C:\Quectel\Docs\ directory...
+    mkdir "C:\Quectel\Docs\"
+)
+cd C:\Quectel\Docs\
+cls
+echo Type all to download all
+echo Select a Document to download to C:\Quectel\Docs\
+echo 1)AT Commands (2023-07-31)
+echo 2)AT Commands (2022-08-12)
+echo 3)AT Commands (2021-08-09)
+echo 4)AT Commands (2020-10-09)
+echo 5)RM520N-GL Hardware Design
+echo 6)Qflash User Guide v5.0
+echo 7)Product Brochure V7.4
+echo 8)QCOM User Guide V1.1
+echo 9)DFOTA Generation Tool Directions
+echo 10) Back to Main Menu
+echo.
+set /p get_pdfs_choice=Select a Doc to download
+
+if "%get_pdfs_choice%"=="1" megatools dl https://mega.nz/file/zEEmCYTb#Y_YVlSEWNn9tz9dpHvY1rSZuDR_gEB6XEVIQ0nGrCJQ
+if "%get_pdfs_choice%"=="2" megatools dl https://mega.nz/file/zIllzT7S#leMbHiKL_jmEy2LZMp1-3aI2BLW2m8vkNFl8ApT3FQw
+if "%get_pdfs_choice%"=="3" megatools dl https://mega.nz/file/mVNRXZrI#FS1_8YIZgqEEcyjWG1__RMI5IeiTc6yrwU9xw6bCpsQ
+if "%get_pdfs_choice%"=="4" megatools dl https://mega.nz/file/nIlhFBhS#QuJZIaN0EkBvLYqFhSUCv_qjx0aGsSG04VXUp1huATw
+if "%get_pdfs_choice%"=="5" megatools dl https://mega.nz/file/fJEG1bDJ#KKkdZOrS0o4xu_3WXLdy3l6N1Aj6-sZYTxceF99oB2I
+if "%get_pdfs_choice%"=="6" megatools dl https://mega.nz/file/bQsw1YqS#c2j1rqAvUZRAhQUniaHfUD0CZZNvxtusW12eIgReDzI
+if "%get_pdfs_choice%"=="7" megatools dl https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I
+if "%get_pdfs_choice%"=="8" megatools dl https://mega.nz/file/HMsgAI7Q#kVLf7ETrE13zrsUUmdq2NUe2d26ZSkbeqgmNXQ4offw
+if "%get_pdfs_choice%"=="9" megatools dl https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY
+if "%get_pdfs_choice%"=="all" goto get_pdfs_all
+if "%get_pdfs_choice%"=="10" goto menu
+goto get_pdfs
+
+:get_pdfs_all
+cd C:\Quectel\Docs\
+megatools dl https://mega.nz/file/zEEmCYTb#Y_YVlSEWNn9tz9dpHvY1rSZuDR_gEB6XEVIQ0nGrCJQ
+megatools dl https://mega.nz/file/zIllzT7S#leMbHiKL_jmEy2LZMp1-3aI2BLW2m8vkNFl8ApT3FQw
+megatools dl https://mega.nz/file/mVNRXZrI#FS1_8YIZgqEEcyjWG1__RMI5IeiTc6yrwU9xw6bCpsQ
+megatools dl https://mega.nz/file/nIlhFBhS#QuJZIaN0EkBvLYqFhSUCv_qjx0aGsSG04VXUp1huATw
+megatools dl https://mega.nz/file/fJEG1bDJ#KKkdZOrS0o4xu_3WXLdy3l6N1Aj6-sZYTxceF99oB2I
+megatools dl https://mega.nz/file/bQsw1YqS#c2j1rqAvUZRAhQUniaHfUD0CZZNvxtusW12eIgReDzI
+megatools dl https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I
+megatools dl https://mega.nz/file/HMsgAI7Q#kVLf7ETrE13zrsUUmdq2NUe2d26ZSkbeqgmNXQ4offw
+megatools dl https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY
 goto menu
 
 :get_firmware
@@ -530,6 +576,18 @@ timeout /t 4
 start "" "C:\Quectel\ADB-and-Fastboot++_v1.0.8.exe"
 echo Follow the installer instructions to complete the setup.
 timeout /t 6
+goto menu
+
+:install_qcom
+echo Downloading QCOM 1.6
+megatools dl https://mega.nz/file/qVd00YTT#SDe_oaYEZdxE1ZYcV32gG_7HgkHfO9sJfBX440e59xU
+powershell -Command "Expand-Archive -Force 'QCOM_V1.6.zip' 'C:\Quectel\'"
+powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('C:\Users\Public\Desktop\QCOM_V1.6.lnk'); $s.TargetPath = 'C:\Quectel\QCOM_V1.6.exe'; $s.WorkingDirectory = 'C:\Quectel'; $s.Save()"
+powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\QCOM_V1.6.lnk'); $s.TargetPath = 'C:\Quectel\QCOM_V1.6.exe'; $s.WorkingDirectory = 'C:\Quectel'; $s.Save()"
+echo Deleting downloaded ZIP file...
+del "QCOM_V1.6.zip"
+echo Installed! Shortcuts have been placed on the desktop and start menu
+timeout /t 4
 goto menu
 
 :end_script
