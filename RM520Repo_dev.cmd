@@ -220,7 +220,7 @@ goto menu
 
 :stock_firmware_all
 echo Downloading RM520NGLAAR03A02M4GA (2023-11-06) firmware...
-megatools dl https://mega.nz/file/3UVHwbJZ#XxVYTEuPJJOxz1WrSHmkdTbNMvziU9LIDTPIbTh2rkg -o "RM520NGLAAR03A02M4GA_2023_11_06.zip"
+megatools dl https://mega.nz/file/3UVHwbJZ#XxVYTEuPJJOxz1WrSHmkdTbNMvziU9LIDTPIbTh2rkg
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR03A02M4GA_2023_11_06\" mkdir "C:\Quectel\firmware\RM520NGLAAR03A02M4GA_2023_11_06"
@@ -229,7 +229,7 @@ echo Deleting downloaded ZIP file...
 del "RM520NGLAAR03A02M4GA_2023_11_06.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR03A02M4GA_2023_11_06\
 echo Downloading RM520NGLAAR03A03M4G_01.200.01.200 (2023-07-25) firmware...
-megatools dl https://mega.nz/file/bEdwAQwI#DVPT-QX60A7pSFVXxxukMDSXTZswTl39XlTEH_NWWpM -o "RM520NGLAAR03A03M4G_2023_07_25.zip"
+megatools dl https://mega.nz/file/bEdwAQwI#DVPT-QX60A7pSFVXxxukMDSXTZswTl39XlTEH_NWWpM
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR03A03M4G_2023_07_25\" mkdir "C:\Quectel\firmware\RM520NGLAAR03A03M4G_2023_07_25"
@@ -238,16 +238,16 @@ echo Deleting downloaded ZIP file...
 del "RM520NGLAAR03A03M4G_2023_07_25.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR03A03M4G_2023_07_25\
 echo Downloading RM520NGLAAR01A08M4G_01.200.01.200 (2023-07-20) firmware...
-megatools dl https://mega.nz/file/OZFkAC6C#xLaLs8qeOMOmic1wHLROrZedZ3USmNzGrSkFddOiAzk -o "RM520NGLAAR01A08M4G_2023_07_20.zip"
+megatools dl https://mega.nz/file/OZFkAC6C#xLaLs8qeOMOmic1wHLROrZedZ3USmNzGrSkFddOiAzk
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20"
-powershell -Command "Expand-Archive -Force 'RM520NGLAAR01A08M4G_2023_07_20.zip' 'C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20"
+powershell -Command "Expand-Archive -Force 'RM520NGLAAR01A08M4G_2023_07_20.zip' 'C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20'"
 echo Deleting downloaded ZIP file...
 del "RM520NGLAAR01A08M4G_2023_07_20.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20\
 echo Downloading RM520NGLAAR01A07M4G_01.203.01.203 (2023-07-12) firmware...
-megatools dl https://mega.nz/file/LJd2yYxQ#lPdFog6G_5RFdKCltnpGKrblvEFOiW-Ctumz72LNMns -o "RM520NGLAAR01A07M4G_2023_07_12.zip"
+megatools dl https://mega.nz/file/LJd2yYxQ#lPdFog6G_5RFdKCltnpGKrblvEFOiW-Ctumz72LNMns
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_07_12\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_07_12"
@@ -256,7 +256,7 @@ echo Deleting downloaded ZIP file...
 del "RM520NGLAAR01A07M4G_2023_07_12.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_07_12\
 echo Downloading RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12) firmware...
-megatools dl https://mega.nz/file/mUsXRBaI#ZIbLL2GWnTG_j8RzMaHV4fN5P6v4zBKc1MLfGX5BXH0 -o "RM520NGLAAR03A01M4G_2023_05_12.zip"
+megatools dl https://mega.nz/file/mUsXRBaI#ZIbLL2GWnTG_j8RzMaHV4fN5P6v4zBKc1MLfGX5BXH0
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR03A01M4G_2023_05_12\" mkdir "C:\Quectel\firmware\RM520NGLAAR03A01M4G_2023_05_12"
@@ -265,7 +265,7 @@ echo Deleting downloaded ZIP file...
 del "RM520NGLAAR03A01M4G_2023_05_12.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR03A01M4G_2023_05_12\
 echo Downloading RM520NGLAAR01A07M4G_01.201.01.201 (2023-03-27) firmware...
-megatools dl https://mega.nz/file/yRMH1YAB#-vDBJ4ywc4aM68ECG2Sef2i-5VuCHk-is05Y5HRyUJM -o "RM520NGLAAR01A07M4G_2023_03_27.zip"
+megatools dl https://mega.nz/file/yRMH1YAB#-vDBJ4ywc4aM68ECG2Sef2i-5VuCHk-is05Y5HRyUJM
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_03_27\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_03_27"
@@ -274,7 +274,7 @@ echo Deleting downloaded ZIP file...
 del "RM520NGLAAR01A07M4G_2023_03_27.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_03_27\
 echo Downloading RM520NGLAAR01A06M4G_12.001.12.001 (2023-01-20) firmware...
-megatools dl https://mega.nz/file/2NVlUSiK#V7Gt1KHpbQIw8J66wo07PMqamGjQK1uXfu1etbjENvs -o "RM520NGLAAR01A06M4G_2023_01_20.zip"
+megatools dl https://mega.nz/file/2NVlUSiK#V7Gt1KHpbQIw8J66wo07PMqamGjQK1uXfu1etbjENvs
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2023_01_20\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2023_01_20"
@@ -283,7 +283,7 @@ echo Deleting downloaded ZIP file...
 del "RM520NGLAAR01A06M4G_2023_01_20.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR01A06M4G_2023_01_20\
 echo Downloading RM520NGLAAR01A06M4G_01.200.01.200 (2022-12-26) firmware...
-megatools dl https://mega.nz/file/SBVDCDbB#oGc7xp0BwjweSqACmxWHjlAZwVuBNtNa-v1z6ob43oQ -o "RM520NGLAAR01A06M4G_2022_12_26.zip"
+megatools dl https://mega.nz/file/SBVDCDbB#oGc7xp0BwjweSqACmxWHjlAZwVuBNtNa-v1z6ob43oQ
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2022_12_26\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2022_12_26"
@@ -295,7 +295,7 @@ goto get_firmware
 
 :stock_firmware_1
 echo Downloading RM520NGLAAR03A02M4GA (2023-11-06) firmware...
-megatools dl https://mega.nz/file/3UVHwbJZ#XxVYTEuPJJOxz1WrSHmkdTbNMvziU9LIDTPIbTh2rkg -o "RM520NGLAAR03A02M4GA_2023_11_06.zip"
+megatools dl https://mega.nz/file/3UVHwbJZ#XxVYTEuPJJOxz1WrSHmkdTbNMvziU9LIDTPIbTh2rkg
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR03A02M4GA_2023_11_06\" mkdir "C:\Quectel\firmware\RM520NGLAAR03A02M4GA_2023_11_06"
@@ -308,7 +308,7 @@ goto stock_firmware_menu
 
 :stock_firmware_2
 echo Downloading RM520NGLAAR03A03M4G_01.200.01.200 (2023-07-25) firmware...
-megatools dl https://mega.nz/file/bEdwAQwI#DVPT-QX60A7pSFVXxxukMDSXTZswTl39XlTEH_NWWpM -o "RM520NGLAAR03A03M4G_2023_07_25.zip"
+megatools dl https://mega.nz/file/bEdwAQwI#DVPT-QX60A7pSFVXxxukMDSXTZswTl39XlTEH_NWWpM
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR03A03M4G_2023_07_25\" mkdir "C:\Quectel\firmware\RM520NGLAAR03A03M4G_2023_07_25"
@@ -321,11 +321,11 @@ goto stock_firmware_menu
 
 :stock_firmware_3
 echo Downloading RM520NGLAAR01A08M4G_01.200.01.200 (2023-07-20) firmware...
-megatools dl https://mega.nz/file/OZFkAC6C#xLaLs8qeOMOmic1wHLROrZedZ3USmNzGrSkFddOiAzk -o "RM520NGLAAR01A08M4G_2023_07_20.zip"
+megatools dl https://mega.nz/file/OZFkAC6C#xLaLs8qeOMOmic1wHLROrZedZ3USmNzGrSkFddOiAzk
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20"
-powershell -Command "Expand-Archive -Force 'RM520NGLAAR01A08M4G_2023_07_20.zip' 'C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20"
+powershell -Command "Expand-Archive -Force 'RM520NGLAAR01A08M4G_2023_07_20.zip' 'C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20'"
 echo Deleting downloaded ZIP file...
 del "RM520NGLAAR01A08M4G_2023_07_20.zip"
 echo Firmware extracted to C:\Quectel\firmware\RM520NGLAAR01A08M4G_2023_07_20\
@@ -334,7 +334,7 @@ goto stock_firmware_menu
 
 :stock_firmware_4
 echo Downloading RM520NGLAAR01A07M4G_01.203.01.203 (2023-07-12) firmware...
-megatools dl https://mega.nz/file/LJd2yYxQ#lPdFog6G_5RFdKCltnpGKrblvEFOiW-Ctumz72LNMns -o "RM520NGLAAR01A07M4G_2023_07_12.zip"
+megatools dl https://mega.nz/file/LJd2yYxQ#lPdFog6G_5RFdKCltnpGKrblvEFOiW-Ctumz72LNMns
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_07_12\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_07_12"
@@ -347,7 +347,7 @@ goto stock_firmware_menu
 
 :stock_firmware_5
 echo Downloading RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12) firmware...
-megatools dl https://mega.nz/file/mUsXRBaI#ZIbLL2GWnTG_j8RzMaHV4fN5P6v4zBKc1MLfGX5BXH0 -o "RM520NGLAAR03A01M4G_2023_05_12.zip"
+megatools dl https://mega.nz/file/mUsXRBaI#ZIbLL2GWnTG_j8RzMaHV4fN5P6v4zBKc1MLfGX5BXH0
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR03A01M4G_2023_05_12\" mkdir "C:\Quectel\firmware\RM520NGLAAR03A01M4G_2023_05_12"
@@ -360,7 +360,7 @@ goto stock_firmware_menu
 
 :stock_firmware_6
 echo Downloading RM520NGLAAR01A07M4G_01.201.01.201 (2023-03-27) firmware...
-megatools dl https://mega.nz/file/yRMH1YAB#-vDBJ4ywc4aM68ECG2Sef2i-5VuCHk-is05Y5HRyUJM -o "RM520NGLAAR01A07M4G_2023_03_27.zip"
+megatools dl https://mega.nz/file/yRMH1YAB#-vDBJ4ywc4aM68ECG2Sef2i-5VuCHk-is05Y5HRyUJM
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_03_27\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A07M4G_2023_03_27"
@@ -373,7 +373,7 @@ goto stock_firmware_menu
 
 :stock_firmware_7
 echo Downloading RM520NGLAAR01A06M4G_12.001.12.001 (2023-01-20) firmware...
-megatools dl https://mega.nz/file/2NVlUSiK#V7Gt1KHpbQIw8J66wo07PMqamGjQK1uXfu1etbjENvs -o "RM520NGLAAR01A06M4G_2023_01_20.zip"
+megatools dl https://mega.nz/file/2NVlUSiK#V7Gt1KHpbQIw8J66wo07PMqamGjQK1uXfu1etbjENvs
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2023_01_20\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2023_01_20"
@@ -386,7 +386,7 @@ goto stock_firmware_menu
 
 :stock_firmware_8
 echo Downloading RM520NGLAAR01A06M4G_01.200.01.200 (2022-12-26) firmware...
-megatools dl https://mega.nz/file/SBVDCDbB#oGc7xp0BwjweSqACmxWHjlAZwVuBNtNa-v1z6ob43oQ -o "RM520NGLAAR01A06M4G_2022_12_26.zip"
+megatools dl https://mega.nz/file/SBVDCDbB#oGc7xp0BwjweSqACmxWHjlAZwVuBNtNa-v1z6ob43oQ
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2022_12_26\" mkdir "C:\Quectel\firmware\RM520NGLAAR01A06M4G_2022_12_26"
@@ -414,7 +414,7 @@ goto menu
 
 :custom_firmware_1
 echo Downloading RM520NGLAAR01A06M4G_01.200.01.200 (2022-12-26) firmware...
-megatools dl https://mega.nz/file/vZsyhaoA#LOav6ZB9ZK15Vm8Nph1s6LpbmHTZNn0f8MsjvFcby1c -o "Arixolink_RM520NGLAAR03A01M4G_2023_11_07.zip"
+megatools dl https://mega.nz/file/vZsyhaoA#LOav6ZB9ZK15Vm8Nph1s6LpbmHTZNn0f8MsjvFcby1c
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\Arixolink_RM520NGLAAR03A01M4G_2023_11_07\" mkdir "C:\Quectel\firmware\Arixolink_RM520NGLAAR03A01M4G_2023_11_07"
@@ -441,7 +441,7 @@ goto menu
 
 :qnavigator_v1
 echo Downloading Qnavigator 1.6.10...
-megatools dl https://mega.nz/file/GdEWHSLa#vYQnNUMArmWwxfzfn6gvbFWI52jtNbnD9Atr0COEIqo -o "Qnavigator_V1.6.10.zip"
+megatools dl https://mega.nz/file/GdEWHSLa#vYQnNUMArmWwxfzfn6gvbFWI52jtNbnD9Atr0COEIqo
 powershell -Command "Expand-Archive -Force 'Qnavigator_V1.6.10.zip' 'C:\Quectel\'"
 REM Create a traditional shortcut to QNavigator 1.6.10 on the desktop with the proper working directory
 powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('C:\Users\Public\Desktop\QNavigator V1.6.10.lnk'); $s.TargetPath = 'C:\Quectel\Qnavigator_V1.6.10\Qnavigator.exe'; $s.WorkingDirectory = 'C:\Quectel\Qnavigator_V1.6.10'; $s.Save()"
@@ -455,7 +455,7 @@ goto menu
 
 :qnavigator_v2
 echo Downloading Qnavigator 1.6.9.1...
-megatools dl https://mega.nz/file/DQFSmDob#0o-PKKEUcdLYpi4UNBQ90IowzQyPduqdKaVVjFcYAi0 -o "Qnavigator_V1.6.9.1.zip"
+megatools dl https://mega.nz/file/DQFSmDob#0o-PKKEUcdLYpi4UNBQ90IowzQyPduqdKaVVjFcYAi0
 powershell -Command "Expand-Archive -Force 'Qnavigator_V1.6.9.1.zip' 'C:\Quectel\'"
 REM Create a traditional shortcut to QNavigator 1.6.9.1 on the desktop with the proper working directory
 powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('C:\Users\Public\Desktop\QNavigator 1.6.9.1.lnk'); $s.TargetPath = 'C:\Quectel\Qnavigator_V1.6.9.1\Qnavigator_V1.6.9.1.exe'; $s.WorkingDirectory = 'C:\Quectel\Qnavigator_V1.6.9.1'; $s.Save()"
@@ -498,7 +498,7 @@ goto adb_setup
 
 :unlock_rgmii_yes
 echo Downloading RM520NGLAAR01A06M4G_01.200.01.200 (2022-12-26) firmware...
-megatools dl https://mega.nz/file/vZsyhaoA#LOav6ZB9ZK15Vm8Nph1s6LpbmHTZNn0f8MsjvFcby1c -o "Arixolink_RM520NGLAAR03A01M4G_2023_11_07.zip"
+megatools dl https://mega.nz/file/vZsyhaoA#LOav6ZB9ZK15Vm8Nph1s6LpbmHTZNn0f8MsjvFcby1c
 echo Extracting firmware...
 REM Create the target directory if it does not exist
 if not exist "C:\Quectel\firmware\Arixolink_RM520NGLAAR03A01M4G_2023_11_07\" mkdir "C:\Quectel\firmware\Arixolink_RM520NGLAAR03A01M4G_2023_11_07"
