@@ -8,6 +8,8 @@ The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applicat
 - [Stock Firmware](#stock-firmware)
 - [Custom Firmware](#custom-firmware)
 - [AT commands](#at-commands)
+- [Other Docs](#other-docs)
+- [Description of antenna connection](#description-of-antenna-connection)
 - [Specification](#specification)
 
 ## Windows Autoinstaller:
@@ -119,7 +121,9 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 <a href="https://github.com/iamromulan/RM520N-GL/blob/main/Documents/Quectel_RG50xQ%26RM5xxQ_Series_AT_Commands_Manual_V1.1.1_Preliminary_20201009.pdf">Quectel RM520N AT Commands Manual V1.1 
 (2020-10-09)</a>
 
-## Description of antenna connection:
+## Other Docs
+
+## Description of antenna connection
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/antenasmall.png?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/rm520n-gl.PNG?raw=true)
 
