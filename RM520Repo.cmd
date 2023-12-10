@@ -175,7 +175,6 @@ if not exist "C:\Quectel\Docs\" (
     echo Creating C:\Quectel\Docs\ directory...
     mkdir "C:\Quectel\Docs\"
 )
-<<<<<<< HEAD:RM520Repo.cmd
 cls
 echo Type all to download all
 echo Select a Document to download to C:\Quectel\Docs\
@@ -201,40 +200,11 @@ if "%get_pdfs_choice%"=="6" call :download_pdf https://mega.nz/file/bQsw1YqS#c2j
 if "%get_pdfs_choice%"=="7" call :download_pdf https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I "Quectel_Product_Brochure_V7.4.pdf"
 if "%get_pdfs_choice%"=="8" call :download_pdf https://mega.nz/file/HMsgAI7Q#kVLf7ETrE13zrsUUmdq2NUe2d26ZSkbeqgmNXQ4offw "Quectel_QCOM_User_Guide_V1.1.pdf"
 if "%get_pdfs_choice%"=="9" call :download_pdf https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY "DFOTA_GEN_RM520_2023_05_15.pdf"
-=======
-cd C:\Quectel\Docs\
-cls
-echo Type all to download all
-echo Select a Document to download to C:\Quectel\Docs\
-echo 1)AT Commands (2023-07-31)
-echo 2)AT Commands (2022-08-12)
-echo 3)AT Commands (2021-08-09)
-echo 4)AT Commands (2020-10-09)
-echo 5)RM520N-GL Hardware Design
-echo 6)Qflash User Guide v5.0
-echo 7)Product Brochure V7.4
-echo 8)QCOM User Guide V1.1
-echo 9)DFOTA Generation Tool Directions
-echo 10) Back to Main Menu
-echo.
-set /p get_pdfs_choice=Select a Doc to download
-
-if "%get_pdfs_choice%"=="1" megatools dl https://mega.nz/file/zEEmCYTb#Y_YVlSEWNn9tz9dpHvY1rSZuDR_gEB6XEVIQ0nGrCJQ
-if "%get_pdfs_choice%"=="2" megatools dl https://mega.nz/file/zIllzT7S#leMbHiKL_jmEy2LZMp1-3aI2BLW2m8vkNFl8ApT3FQw
-if "%get_pdfs_choice%"=="3" megatools dl https://mega.nz/file/mVNRXZrI#FS1_8YIZgqEEcyjWG1__RMI5IeiTc6yrwU9xw6bCpsQ
-if "%get_pdfs_choice%"=="4" megatools dl https://mega.nz/file/nIlhFBhS#QuJZIaN0EkBvLYqFhSUCv_qjx0aGsSG04VXUp1huATw
-if "%get_pdfs_choice%"=="5" megatools dl https://mega.nz/file/fJEG1bDJ#KKkdZOrS0o4xu_3WXLdy3l6N1Aj6-sZYTxceF99oB2I
-if "%get_pdfs_choice%"=="6" megatools dl https://mega.nz/file/bQsw1YqS#c2j1rqAvUZRAhQUniaHfUD0CZZNvxtusW12eIgReDzI
-if "%get_pdfs_choice%"=="7" megatools dl https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I
-if "%get_pdfs_choice%"=="8" megatools dl https://mega.nz/file/HMsgAI7Q#kVLf7ETrE13zrsUUmdq2NUe2d26ZSkbeqgmNXQ4offw
-if "%get_pdfs_choice%"=="9" megatools dl https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY
->>>>>>> 0d9858e6f15c4f497865ad73fe0ace5b68c837de:RM520Repo_dev.cmd
 if "%get_pdfs_choice%"=="all" goto get_pdfs_all
 if "%get_pdfs_choice%"=="10" goto menu
 goto get_pdfs
 
 :get_pdfs_all
-<<<<<<< HEAD:RM520Repo.cmd
 call :download_pdf https://mega.nz/file/zEEmCYTb#Y_YVlSEWNn9tz9dpHvY1rSZuDR_gEB6XEVIQ0nGrCJQ "Quectel_RM5x0N_AT_Commands_2023_07_31.pdf"
 call :download_pdf https://mega.nz/file/zIllzT7S#leMbHiKL_jmEy2LZMp1-3aI2BLW2m8vkNFl8ApT3FQw "Quectel_RM520_AT_Commandsl_2022_08_12.pdf"
 call :download_pdf https://mega.nz/file/mVNRXZrI#FS1_8YIZgqEEcyjWG1__RMI5IeiTc6yrwU9xw6bCpsQ "Quectel_RM5xxQ_AT_Commands_2021_08_09.pdf"
@@ -244,18 +214,6 @@ call :download_pdf https://mega.nz/file/bQsw1YqS#c2j1rqAvUZRAhQUniaHfUD0CZZNvxtu
 call :download_pdf https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I "Quectel_Product_Brochure_V7.4.pdf"
 call :download_pdf https://mega.nz/file/HMsgAI7Q#kVLf7ETrE13zrsUUmdq2NUe2d26ZSkbeqgmNXQ4offw "Quectel_QCOM_User_Guide_V1.1.pdf"
 call :download_pdf https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY "DFOTA_GEN_RM520_2023_05_15.pdf"
-=======
-cd C:\Quectel\Docs\
-megatools dl https://mega.nz/file/zEEmCYTb#Y_YVlSEWNn9tz9dpHvY1rSZuDR_gEB6XEVIQ0nGrCJQ
-megatools dl https://mega.nz/file/zIllzT7S#leMbHiKL_jmEy2LZMp1-3aI2BLW2m8vkNFl8ApT3FQw
-megatools dl https://mega.nz/file/mVNRXZrI#FS1_8YIZgqEEcyjWG1__RMI5IeiTc6yrwU9xw6bCpsQ
-megatools dl https://mega.nz/file/nIlhFBhS#QuJZIaN0EkBvLYqFhSUCv_qjx0aGsSG04VXUp1huATw
-megatools dl https://mega.nz/file/fJEG1bDJ#KKkdZOrS0o4xu_3WXLdy3l6N1Aj6-sZYTxceF99oB2I
-megatools dl https://mega.nz/file/bQsw1YqS#c2j1rqAvUZRAhQUniaHfUD0CZZNvxtusW12eIgReDzI
-megatools dl https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I
-megatools dl https://mega.nz/file/HMsgAI7Q#kVLf7ETrE13zrsUUmdq2NUe2d26ZSkbeqgmNXQ4offw
-megatools dl https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY
->>>>>>> 0d9858e6f15c4f497865ad73fe0ace5b68c837de:RM520Repo_dev.cmd
 goto menu
 
 :download_pdf
