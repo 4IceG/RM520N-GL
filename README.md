@@ -97,11 +97,13 @@ Last 2023-11-06
 <details>
    <summary>Pokaż | Show me</summary>
 
-<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG50xQ_RM5xxQ_Series_AT_Commands_Manual_V1.2.pdf" title="Quectel RM520N AT Commands Manual V1.2">Quectel RM520N AT Commands Manual V1.2</a>
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RM5x0N_AT_Commands_2023_07_31.pdf">Quectel RM520N AT Commands Manual V1.0</a>
 
-<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG50xQ%26RM5xxQ_Series_AT_Commands_Manual_V1.1.1_Preliminary_20201009-2.pdf" title="Quectel RM520N AT Commands Manual V1.1.1">Quectel RM520N AT Commands Manual V1.1</a>
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RM520_AT_Commandsl_2022_08_12.pdf">Quectel RM520N AT Commands Manual V1.0</a>
 
-<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RG520N%26RG52xF%26RG530F%26RM520N%26RM530N_Series_AT_Commands_Manual_V1.0.0_Preliminary_20220812.pdf" title="Quectel RM520N AT Commands Manual V1.0.0">Quectel RM520N AT Commands Manual V1.0</a>
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RM5xxQ_AT_Commands_2021_08_09.pdf">Quectel RM520N AT Commands Manual V1.2</a>
+
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Documents/Quectel_RM5xxQ_AT_Commands_2020_10_09.pdf">Quectel RM520N AT Commands Manual V1.1</a>
 
 </details>
 
