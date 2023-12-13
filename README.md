@@ -51,45 +51,94 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 ## Firmware:
 <details>
    <summary>Stock | Show me</summary>
-Last 2023-11-06
- 
-<a href="https://drive.google.com/file/d/1v3-lSQCeE0Wls7EXoOgmWn6wvATb5zED/view?usp=drive_link" title="RM520NGLAAR03A02M4GA">RM520NGLAAR03A02M4GA</a>
 
-<a href="https://drive.google.com/file/d/1EAJc7d3GXOnuCLCMHRZ65TXSBE5nDaXP/view?usp=drive_link" title="RM520NGLAAR03A03M4G_01.200.01.200">RM520NGLAAR03A03M4G_01.200.01.200</a> 
-
-<a href="https://drive.google.com/file/d/1HHJ9FR1TgmqzkXhqQ2fq67OuvvhdShKO/view?usp=drive_link" title="RM520NGLAAR01A08M4G_01.200.01.200">RM520NGLAAR01A08M4G_01.200.01.200</a> 
-
-<a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=drive_link" title="RM520NGLAAR01A07M4G_01.203.01.203">RM520NGLAAR01A07M4G_01.203.01.203</a> 
- 
-<a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing" title="RM520NGLAAR03A01M4G_01.202.01.202">RM520NGLAAR03A01M4G_01.202.01.202</a>
-
-<a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=sharing" title="RM520NGLAAR01A07M4G_01.203.01.203">RM520NGLAAR01A07M4G_01.203.01.203</a>
-
-<a href="https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip" title="RM520NGLAAR01A07M4G_01.201.01.201">RM520NGLAAR01A07M4G_01.201.01.201</a>
-
-<a href="https://drive.google.com/file/d/1NWle7w6LHubee5l4n7EsMuExtVj36lwV/view?usp=sharing" title="RM520NGLAAR01A06M4G_01.200.01.200 2">RM520NGLAAR01A06M4G_01.200.01.200</a>
-
-<a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing" title="RM520NGLAAR01A06M4G_12.001.12.001">RM520NGLAAR01A06M4G_12.001.12.001</a>
+| Date | Version | Link |
+| --- | --- | --- |
+| `2023-11-06` | *RM520NGLAAR03A02M4GA* | <a href="https://drive.google.com/file/d/1v3-lSQCeE0Wls7EXoOgmWn6wvATb5zED/view?usp=drive_link">Download</a> |
+| `2023-07-25` | *RM520NGLAAR03A03M4G_01.200.01.200* | <a href="https://drive.google.com/file/d/1EAJc7d3GXOnuCLCMHRZ65TXSBE5nDaXP/view?usp=drive_link">Download</a> |
+| `2023-07-20` | *RM520NGLAAR01A08M4G_01.200.01.200* | <a href="https://drive.google.com/file/d/1HHJ9FR1TgmqzkXhqQ2fq67OuvvhdShKO/view?usp=drive_link">Download</a> |
+| `2023-07-12` | *RM520NGLAAR01A07M4G_01.203.01.203* | <a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=sharing">Download</a> |
+| `2023-05-12` | *RM520NGLAAR03A01M4G_01.202.01.202* | <a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing">Download</a> |
+| `2023-03-27` | *RM520NGLAAR01A07M4G_01.201.01.201* | <a href="https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip">Download</a> |
+| `2023-01-20` | *RM520NGLAAR01A06M4G_12.001.12.001* | <a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing">Download</a> |
+| `2022-12-26` | *RM520NGLAAR01A06M4G_01.200.01.200* | <a href="https://drive.google.com/file/d/1NWle7w6LHubee5l4n7EsMuExtVj36lwV/view?usp=sharing">Download</a> |
 
 </details>
 
 <details>
    <summary>Custom | Show me</summary>
+   
+| Date | Version | Link |
+| --- | --- | --- |
+|  | *Arixolink RM520NGLAAR03A01M4G* | <a href="https://drive.google.com/file/d/1RmCBlxdXWFdlAe-2RnMtj-4xBMRHf5gP/view?usp=drive_link">Download</a> |
 
-<a href="https://drive.google.com/file/d/1RmCBlxdXWFdlAe-2RnMtj-4xBMRHf5gP/view?usp=drive_link" title="Arixolink_RM520NGLAAR03A01M4G">Arixolink RM520NGLAAR03A01M4G</a>
 
 </details>
 
 ## Firmware update instructions:
 
-> Work in progress..
-
 <details>
    <summary>Windows | Show me</summary>
+
+Step 1.
+> Install modem drivers [Quectel_Windows_USB_DriverQ_NDIS_V2.4.6.zip](https://github.com/4IceG/RM520N-GL/blob/main/Drivers/Quectel_Windows_USB_DriverQ_NDIS_V2.4.6.zip) on your system.
+
+Step 2.
+> Connect modem to your computer, for example using a USB to m.2 B-key adapter.
+
+Step 3.
+> Go to device manager and check if the new COM ports are visible in the system. Restart your computer if the new COM ports are not visible.
+
+![](https://github.com/4IceG/Personal_data/blob/master/5G/fwinst/comportz.png?raw=true)
+
+> Remember the number of the COM port described as "DM Port".
+
+Step 4.
+> Run QFlash (Link to download the latest version [QFlash V6.7 EN.zip](https://drive.google.com/file/d/1_EeIsltBto5tluPfSqZlxsodLeOiXHPf/view?usp=drive_link)).
+> Remember to avoid long paths through the QFlash folder.
+
+> Select the COM port number remembered earlier and set the baud rate.
+
+![](https://github.com/4IceG/Personal_data/blob/master/5G/fwinst/qfa.png?raw=true)
+
+Step 5.
+> Load modem firmware (previously unpacked from the archive) into the program.
+
+![](https://github.com/4IceG/Personal_data/blob/master/5G/fwinst/qfb.png?raw=true)
+
+> In the new window, go to the `\update\firehose` folder and select file `partition_complete_p4K_b256K.mbn`. Then click the Open button.
+
+![](https://github.com/4IceG/Personal_data/blob/master/5G/fwinst/qf2.png?raw=true)
+
+Step 6.
+> Start updating modem firmware.
+
+![](https://github.com/4IceG/Personal_data/blob/master/5G/fwinst/qf3.png?raw=true)
+
 </details>
 
 <details>
-   <summary>Linux | Show me</summary>
+   <summary>Linux (OpenWrt) | Show me</summary>
+
+Step 1.
+> Install the qfirehose package.
+> In console, run commands.
+
+``` bash
+opkg update
+opkg install qfirehose
+```
+Step 2.
+> Using WinSCP, copy the extracted modem firmware to the \tmp folder on the router.
+
+Step 3.
+> Start updating modem firmware.
+> In console, run command.
+
+``` bash
+/usr/bin/qfirehose -f /tmp/RM520NGLAAR03A02M4GA
+```
+
 </details>
 
 
