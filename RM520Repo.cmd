@@ -24,7 +24,7 @@ if exist "%~dp0megatools\megatools-1.11.1.20230212-win64\" (
     REM Download Megatools
     echo Megatools lets us download files on https://Mega.nz/ via command line!
     echo Downloading Megatools...
-    powershell -Command "Invoke-WebRequest -Uri 'https://megatools.megous.com/builds/builds/megatools-1.11.1.20230212-win64.zip' -OutFile '%~dp0megatools.zip' -SkipCertificateCheck"
+    powershell -Command "Invoke-WebRequest -Uri 'https://drive.google.com/uc?export=download&id=1Amq5AYbvazf861eJQ7DjMAU8sapa8Ios' -OutFile '%~dp0megatools.zip'"
 )
 
 :extract_megatools
