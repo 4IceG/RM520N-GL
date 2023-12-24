@@ -17,11 +17,11 @@ You will find Tools, Docs, and Firmware for it here, as well as a .cmd that inst
 ## Windows Autoinstaller:
 ![cmd repo](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/repocmd.png?raw=true)
 
-**[RM520 Resource Package DOWNLOAD](https://mega.nz/file/CRkBlIKY#-ekUiYN543aULco6X60Kcw4MWlsK2NS_7yd1k9aok50)**
+**[RM520 Resource Package DOWNLOAD](https://mega.nz/file/KUllgaTC#s0Nd-uUCZVAdxCQIsWcArginz_7s0J8T3cYdzu_ToTc)**
 
 **Note**
 
-Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](https://mega.nz/file/CRkBlIKY#-ekUiYN543aULco6X60Kcw4MWlsK2NS_7yd1k9aok50) and by using their download links listed here.
+Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](https://mega.nz/file/KUllgaTC#s0Nd-uUCZVAdxCQIsWcArginz_7s0J8T3cYdzu_ToTc) and by using their download links listed here.
 
 **What this does**
 
