@@ -156,6 +156,33 @@ if "%qflash_choice%"=="2" goto qflash_v6.4
 if "%qflash_choice%"=="3" goto menu
 goto menu
 
+REM Extract Qflash to a temporary directory
+mkdir C:\TempQFlash
+powershell -Command "Expand-Archive -Force '%~dp0\QFlash_V6.8_EN.zip' 'C:\TempQFlash'"
+
+REM Move the specific directory to C:\Quectel
+move C:\TempQFlash\QFlash_V6.8_EN\YourSpecificDirectory C:\Quectel\
+
+
+
+:qflash_v6.8
+REM Create directory C:\Quectel\flash
+mkdir C:\Quectel\flash
+megatools dl https://mega.nz/file/KdkjUB7S#fjsDkQkV3SKJgMYDs8gnbl_8rRienWtEJK9G-_D36tk
+REM Extract Qflash to a temporary directory
+mkdir C:\TempQFlash
+powershell -Command "Expand-Archive -Force '%~dp0\QFlash_V6.8_EN.zip' 'C:\TempQFlash'"
+REM Move the specific directory to C:\Quectel
+move C:\TempQFlash\QFlash_V6.8_EN\QFlash_V6.8 C:\Quectel\
+REM Delete the temporary directory
+rmdir /s /q C:\TempQFlash
+REM Create a traditional shortcut to QFlash 6.8 on the desktop with the proper working directory
+powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('C:\Users\Public\Desktop\QFlash 6.8.lnk'); $s.TargetPath = 'C:\Quectel\QFlash_V6.8\QFlash_V6.8.exe'; $s.WorkingDirectory = 'C:\Quectel\QFlash_V6.8'; $s.Save()"
+REM Create a traditional shortcut to QFlash 6.8 in the Start Menu with the proper working directory
+powershell -Command "$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut('%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\QFlash 6.8.lnk'); $s.TargetPath = 'C:\Quectel\QFlash_V6.6\QFlash_V6.8.exe'; $s.WorkingDirectory = 'C:\Quectel\QFlash_V6.8'; $s.Save()"
+del QFlash_V6.8_EN.zip
+goto menu
+
 :qflash_v6.6
 REM Create directory C:\Quectel\flash
 mkdir C:\Quectel\flash
@@ -267,7 +294,7 @@ echo 1) RM520NGLAAR03A02M4GA (2023-11-06)
 echo 2) RM520NGLAAR03A03M4G_01.200.01.200 (2023-07-25)
 echo 3) RM520NGLAAR01A08M4G_01.200.01.200 (2023-07-20)
 echo 4) RM520NGLAAR01A07M4G_01.203.01.203 (2023-07-12) 
-echo 5) RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12)(Super Stable)
+echo 5) RM520NGLAAR03A01M4G_01.202.01.202 (2023-05-12)
 echo 6) RM520NGLAAR01A07M4G_01.201.01.201 (2023-03-27)
 echo 7) RM520NGLAAR01A06M4G_12.001.12.001 (2023-01-20)
 echo 8) RM520NGLAAR01A06M4G_01.200.01.200 (2022-12-26)
