@@ -145,15 +145,17 @@ goto menu
 :install_qflash
 cls
 echo Qflash Versions:
-echo 1) 6.6 (Latest)
-echo 2) 6.4
-echo 3) Go back to Main Menu
+echo 1) 6.8 (Latest)
+echo 2) 6.6
+echo 3) 6.4
+echo 4) Go back to Main Menu
 echo.
 set /p qflash_choice=Select a Qflash version: 
 
-if "%qflash_choice%"=="1" goto qflash_v6.6
-if "%qflash_choice%"=="2" goto qflash_v6.4
-if "%qflash_choice%"=="3" goto menu
+if "%qflash_choice%"=="1" goto qflash_v6.8
+if "%qflash_choice%"=="2" goto qflash_v6.6
+if "%qflash_choice%"=="3" goto qflash_v6.4
+if "%qflash_choice%"=="4" goto menu
 goto menu
 
 REM Extract Qflash to a temporary directory
