@@ -68,6 +68,8 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 
 <a href="https://mega.nz/file/Sclj0C5Q#EJ3xr60g99thcuyVav42bOjs-z_Iu-Qv3hYycrJAjbk" title="RNDIS_V1.0.9.zip">Quectel Windows USB Driver(Q) RNDIS V1.0.9</a>
 
+[QFlash V6.8 EN](https://mega.nz/file/KdkjUB7S#fjsDkQkV3SKJgMYDs8gnbl_8rRienWtEJK9G-_D36tk)
+
 [QFlash V6.6 EN](https://mega.nz/file/Lc8E3BLB#RoYzTEdk1TS3EKC_REEPQ18MrNo5c5BFQ7iT18Bx-A4) 
 
 [QFlash V6.4 EN](https://mega.nz/file/PEFT1A5Z#uGUNnpcKtKwmd_lw8POnY51Jr2LSLnU-biQNKhhsnL4) 
