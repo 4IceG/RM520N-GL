@@ -158,14 +158,6 @@ if "%qflash_choice%"=="3" goto qflash_v6.4
 if "%qflash_choice%"=="4" goto menu
 goto menu
 
-REM Extract Qflash to a temporary directory
-mkdir C:\TempQFlash
-powershell -Command "Expand-Archive -Force '%~dp0\QFlash_V6.8_EN.zip' 'C:\TempQFlash'"
-
-REM Move the specific directory to C:\Quectel
-move C:\TempQFlash\QFlash_V6.8_EN\YourSpecificDirectory C:\Quectel\
-
-
 
 :qflash_v6.8
 REM Create directory C:\Quectel\flash
