@@ -65,15 +65,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 </details>
 
-<details>
-   <summary>Custom | Show me</summary>
-   
-| Date | Version | Link |
-| --- | --- | --- |
-|  | *Arixolink RM520NGLAAR03A01M4G* | <a href="https://drive.google.com/file/d/1RmCBlxdXWFdlAe-2RnMtj-4xBMRHf5gP/view?usp=drive_link">Download</a> |
 
-
-</details>
 
 ## Firmware update instructions:
 
