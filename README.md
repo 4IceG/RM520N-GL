@@ -13,7 +13,9 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 <a href="https://www.waveshare.com/w/upload/d/df/Quectel_Windows_USB_Driver%28Q%29_RNDIS_V1.0.9.zip" title="RNDIS_V1.0.9.zip">Quectel Windows USB Driver(Q) RNDIS V1.0.9</a>
 
-<a href="https://drive.google.com/file/d/1_EeIsltBto5tluPfSqZlxsodLeOiXHPf/view?usp=drive_link" title="QFlash.V6.7.EN">QFlash V6.7 EN</a>
+<a href="https://drive.google.com/file/d/1zYvH2cFQNXHGCScX14ksruG7wFgxqKls/view?usp=sharing" title="QFlash.V6.9.EN">QFlash V6.9 EN</a> `filename is password`
+
+<a href="https://drive.google.com/file/d/1XeiSymetx_PGJ5ttKo97vUICqGKwbgZz/view?usp=sharing" title="QFlash_PCIE_V1.0">QFlash_PCIE_V1.0</a> `filename is password`
 
 <a href="https://drive.google.com/file/d/1hrXW2u9Jrt4M9jzB1mh8wpOKAGuEXoTN/view?usp=sharing" title="QFlash.V6.3.EN">QFlash V6.3 EN</a>
 
@@ -86,7 +88,7 @@ Step 3.
 > Remember the number of the COM port described as "DM Port".
 
 Step 4.
-> Run QFlash (Link to download the latest version [QFlash V6.7 EN.zip](https://drive.google.com/file/d/1_EeIsltBto5tluPfSqZlxsodLeOiXHPf/view?usp=drive_link)).
+> Run QFlash (Link to download the latest version [QFlash V6.9 EN.zip](https://drive.google.com/file/d/1zYvH2cFQNXHGCScX14ksruG7wFgxqKls/view?usp=sharing)).
 > Remember to avoid long paths through the QFlash folder.
 
 > Select the COM port number remembered earlier and set the baud rate.
