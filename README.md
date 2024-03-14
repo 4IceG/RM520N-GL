@@ -88,7 +88,7 @@ Step 3.
 > Remember the number of the COM port described as "DM Port".
 
 Step 4.
-> Run QFlash (Link to download the latest version [QFlash V6.9 EN.zip](https://drive.google.com/file/d/1zYvH2cFQNXHGCScX14ksruG7wFgxqKls/view?usp=sharing)).
+> Run QFlash (Link to download the latest version [QFlash V6.9 EN](https://drive.google.com/file/d/1zYvH2cFQNXHGCScX14ksruG7wFgxqKls/view?usp=sharing)).
 > Remember to avoid long paths through the QFlash folder.
 
 > Select the COM port number remembered earlier and set the baud rate.
