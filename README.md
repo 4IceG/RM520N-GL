@@ -52,19 +52,28 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 ## Firmware:
 <details>
-   <summary>Stock | Show me</summary>
+   <summary>Stock R01 | Show me</summary>
 
 | Date | Version | Hint | Link |
 | --- | --- | --- | --- |
 | `2024-02-01` | *RM520NGLAAR01A08M4G_01.202.01.202* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/19oO1TA58z1xeloGLL6IogrqBFjnRFmoL/view?usp=sharing">Download</a> |
-| `2023-11-06` | *RM520NGLAAR03A02M4GA* | | <a href="https://drive.google.com/file/d/1v3-lSQCeE0Wls7EXoOgmWn6wvATb5zED/view?usp=drive_link">Download</a> |
-| `2023-07-25` | *RM520NGLAAR03A03M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1EAJc7d3GXOnuCLCMHRZ65TXSBE5nDaXP/view?usp=drive_link">Download</a> |
 | `2023-07-20` | *RM520NGLAAR01A08M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1HHJ9FR1TgmqzkXhqQ2fq67OuvvhdShKO/view?usp=drive_link">Download</a> |
 | `2023-07-12` | *RM520NGLAAR01A07M4G_01.203.01.203* | | <a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=sharing">Download</a> |
-| `2023-05-12` | *RM520NGLAAR03A01M4G_01.202.01.202* | | <a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing">Download</a> |
 | `2023-03-27` | *RM520NGLAAR01A07M4G_01.201.01.201* | | <a href="https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip">Download</a> |
 | `2023-01-20` | *RM520NGLAAR01A06M4G_12.001.12.001* | | <a href="https://drive.google.com/file/d/1hlFwz7UbC5mnwsF1ihCEaElTxrdIdnGk/view?usp=sharing">Download</a> |
 | `2022-12-26` | *RM520NGLAAR01A06M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1NWle7w6LHubee5l4n7EsMuExtVj36lwV/view?usp=sharing">Download</a> |
+
+</details>
+
+<details>
+   <summary>Stock R03 | Show me</summary>
+
+| Date | Version | Hint | Link |
+| --- | --- | --- | --- |
+| `2024-03-28` | *RM520NGLAAR03A03M4G_01.201.01.201* | | <a href="https://drive.google.com/file/d/1Ta5w3-bOxGe0sudybDyZVUpKbCfExIfL/view?usp=sharing">Download</a> |
+| `2023-11-06` | *RM520NGLAAR03A02M4GA* | | <a href="https://drive.google.com/file/d/1v3-lSQCeE0Wls7EXoOgmWn6wvATb5zED/view?usp=drive_link">Download</a> |
+| `2023-07-25` | *RM520NGLAAR03A03M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1EAJc7d3GXOnuCLCMHRZ65TXSBE5nDaXP/view?usp=drive_link">Download</a> |
+| `2023-05-12` | *RM520NGLAAR03A01M4G_01.202.01.202* | | <a href="https://drive.google.com/file/d/18mtwvYxl7BfAwTkFO6j6IhY27oZwonGa/view?usp=sharing">Download</a> |
 
 </details>
 
