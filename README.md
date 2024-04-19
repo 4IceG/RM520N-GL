@@ -1,6 +1,19 @@
 # RM520N-GL
 Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications.
 
+
+## <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_United_Kingdom.png" height="24"> Read before purchasing a modem / <img src="https://raw.githubusercontent.com/4IceG/Personal_data/master/dooffy_design_icons_EU_flags_Poland.png" height="24"> Przeczytaj przed zakupem modemu
+<details>
+   <summary>Pokaż | Show me</summary>
+
+> Check what bands your modem aggregates from your location. What aggregation combinations it supports. Often, one modem model has several revisions dedicated to the region in which it is intended to work.
+
+> Sprawdź jakie pasma z twojej lokalizacji agreguje modem. Jakie obsługuje kombinacje agregacji. Często jeden model modemu ma kilka rewizji dedykowanych dla regionu w którym ma pracować.
+
+<a href="https://github.com/4IceG/RM520N-GL/raw/main/Documents/Quectel_RM520N-GL_CA&EN-DC_Features_V1.0.xls" title="Quectel_RM520N-GL_CA&EN-DC_Features_V1.0.xls">Quectel_RM520N-GL_CA&EN-DC_Features_V1.0.xls</a>
+
+</details>
+
 ## Toolz:
 <details>
    <summary>Windows | Show me</summary>
