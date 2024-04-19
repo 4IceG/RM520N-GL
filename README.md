@@ -6,7 +6,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 <details>
    <summary>Pokaż | Show me</summary>
 
-> Check what bands your modem aggregates from your location. What aggregation combinations it supports. Often, one modem model has several revisions dedicated to the region in which it is intended to work.
+> Check what bands modem aggregates from your location. What aggregation combinations it supports. Often, one modem model has several revisions dedicated to the region in which it is intended to work.
 
 > Sprawdź jakie pasma z twojej lokalizacji agreguje modem. Jakie obsługuje kombinacje agregacji. Często jeden model modemu ma kilka rewizji dedykowanych dla regionu w którym ma pracować.
 
