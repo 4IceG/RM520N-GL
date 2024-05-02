@@ -30,7 +30,7 @@ All files installed/downloaded will go to C:\Quectel\
 
 ## Toolz:
 <details>
-   <summary>Windows | Show me</summary>
+   <summary>Windows | View</summary>
 
 [Quectel Windows USB Driver(Q) NDIS V2.6.0](https://mega.nz/file/GVMS1D7K#ogA1oLOwhkRlLWDDhisG9p0k1H_jhcAJOesHHV-XKUg) (Recommended)
 
@@ -61,7 +61,7 @@ All files installed/downloaded will go to C:\Quectel\
 </details>
 
 <details>
-   <summary>Linux | Show me</summary>
+   <summary>Linux | View</summary>
 
 <a href="https://github.com/4IceG/RM520N-GL/blob/main/Toolz/QFirehose_Linux_Android_V1.4.17.zip" title="QFirehose_Linux_Android_V1.4.17">QFirehose V1.4.17</a>
 
@@ -83,7 +83,7 @@ All files installed/downloaded will go to C:\Quectel\
 
 ## Firmware:
 <details>
-   <summary>Stock | Show me</summary>
+   <summary>Stock | View</summary>
 
 | Date | Version | Link |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ All files installed/downloaded will go to C:\Quectel\
 </details>
 
 <details>
-   <summary>Custom | Show me</summary>
+   <summary>Custom | View</summary>
    
 | Date | Version | Link | Full Project |
 | --- | --- | --- | --- |
@@ -110,7 +110,7 @@ All files installed/downloaded will go to C:\Quectel\
 ## Firmware update instructions:
 
 <details>
-   <summary>Windows | Show me</summary>
+   <summary>Windows | View</summary>
 
 Step 1.
 > Install modem drivers [Quectel Windows USB Driver(Q) NDIS V2.6.0](https://mega.nz/file/GVMS1D7K#ogA1oLOwhkRlLWDDhisG9p0k1H_jhcAJOesHHV-XKUg)  on your system. The [Windows Autoinstaller](#windows-autoinstaller) will help you do this as well. If you don't already have QFlash install it from the [Windows Autoinstaller](#windows-autoinstaller) or the respective link in [Toolz](#toolz)
@@ -151,7 +151,7 @@ Step 6.
 </details>
 
 <details>
-   <summary>Linux (OpenWrt) | Show me</summary>
+   <summary>Linux (OpenWrt) | View</summary>
 
 Step 1.
 > Install the qfirehose package.
@@ -177,7 +177,7 @@ Step 3.
 ## How to use Qnavigator to send AT commands
 
 <details>
-   <summary> Show me</summary>
+   <summary> View</summary>
 
 Connect your modem to your computer by USB. Either through a USB to m.2 B-key sled (should have a sim slot as well) from Amazon or by using an RGMII board's USB C port.
 ### If you installed by using the autoinstaller: 
@@ -195,7 +195,7 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 
 ## AT commands:
 <details>
-   <summary>Show me</summary>
+   <summary>View</summary>
 
 
 | Date | Version | Link |
@@ -211,9 +211,9 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 
 ## Other Docs
 <details>
-   <summary>Show me</summary>
+   <summary>General</summary>
 
-<a href="https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY">DFOTA Generation Tool Directions</a>
+<a href="https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY">[NEW!] Quectel 5G&LTE-Advanced Module Product Overview V7.1</a>
 
 <a href="https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I">Quectel Product Brochure V7.4</a>
 
@@ -221,13 +221,66 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 
 <a href="https://mega.nz/file/bQsw1YqS#c2j1rqAvUZRAhQUniaHfUD0CZZNvxtusW12eIgReDzI">QFlash User Guide V5.0 </a>
 
-<a href="https://mega.nz/file/fJEG1bDJ#KKkdZOrS0o4xu_3WXLdy3l6N1Aj6-sZYTxceF99oB2I">Quectel RM520N-GL Hardware Design</a>
+<a href="https://mega.nz/file/fRlBgSDb#zusk1tH29-4HGu9tJJfxkpARlbo-LBwz3h4Bqk9qTEI">[Updated!] Quectel RM520N-GL Hardware Design</a>
+
+<a href="https://mega.nz/file/TcdFgJhQ#C6zNX0rSsrLOFy5bqUk5fnPZ-W7vFQBvh8gVyOxfNmk">[NEW!] Reference Design</a>
+
+<a href="https://mega.nz/file/vAcmWAzK#3IkjR9WLL9BQjKV9SEvDsuNgp-g0Bbm-TcLtRqMR6H8">[NEW!] A/B System Update Guide</a>
+
+<a href="https://mega.nz/file/zAcUEIDL#_qEpH1C3rmDpaKFTUyud4zQY88pUEKrHhN1-qzY21bE">[NEW!] DFOTA Upgrade Process</a>
+
+<a href="https://mega.nz/file/Oc1C1DIQ#mucxYGBrauLJAhQUKDuIB9cb_ETuod743XE_eb-boqE">[NEW!] TCP/IP Application Note</a>
+
+<a href="https://mega.nz/file/KV1XSYAT#sKN5N1HPjHETpk06zi7s_FXGNR2HaxIp4Qbw_cmy3Vc">[NEW!] Data Call Application Note</a>
+
+<a href="https://mega.nz/file/CN1HQKyb#18bN9uZKJf6zInXDhsLWMW1mlP2tkM_QpC1X8i9r_v8">[NEW!] eSIM LPA Application Note 1.1</a>
+
+<a href="https://mega.nz/file/KU1QWYzC#9CB5ikUD6-YtcUzjaACEeA3YobYJXUhddalFRZ1KTZ4">[NEW!] eSIM LPA Application Note 1.0</a>
+
+<a href="https://mega.nz/file/aBkDSQAK#JMy2f4n-hMfDHoFbc6uQkOpr-lhc58v6Kqp0-NUH8rE">[NEW!] Voice Over ttyUSB Application Note</a>
+
+<a href="https://mega.nz/file/KAkFyTJQ#GekOQec5Ma2THtbQRQWfsK9_z6pGpFHe1XYxS1wMw-g">[NEW!] External VoLTE stack Application Note</a>
+
+<a href="https://mega.nz/file/jUEzlYaT#4ayxXXgZ62yr4qUPMneocvm_1ZhZ_N9y1mclvi5rrv4">[NEW!] File Application Note</a>
+
+<a href="https://mega.nz/file/fY1w3QIK#XyrfW-cIHq30ZsLwFS7pJxc-6ZwAAP32Omh7IPLbSeY">[NEW!] GNSS Application Note</a>
+
+<a href="https://mega.nz/file/nc810Jhb#gsnFEC8vhGYV_IY6boIKraz-aTnIr8oFOoAuph6lndM">[NEW!] HTTP(S) Application Note</a>
+
+<a href="https://mega.nz/file/6cNWERgL#hNHEBKAbLoZzzUoBxdzHmyH_TR9cAV1gM5SCCyKLlHA">[NEW!] Software Thermal Management Guide</a>
+
+<a href="https://mega.nz/file/bJE1zbDQ#gj1-4KrFbhLLbSUaoaKNhbVRz7M-X5beMXFcwwbyGss">[NEW!] Thermal Design Guide</a>
+
+<a href="https://mega.nz/file/aIsWgKRB#n7YcwAsreFfCYTcTw0Vk06Y0EQk6yYwa8AwP1IMuRHQ">[NEW!] 5G Network Status Judgement Introduction</a>
+
+<a href="https://mega.nz/file/HIMRkAwA#7O19pLJwHKF2cYRs_y68sKo2Vd7HmjRmmBrnUOFrSuo">[NEW!] CA Combos Spreadsheet</a>
+
+</details>
+
+<details>
+   <summary>[NEW!] QuecOpen</summary>
+
+<a href="https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY">DFOTA Generation Tool Directions </a>
+
+<a href="https://mega.nz/file/qBt3jTBD#f7KaTzcHwtDhBO6pmucQUqjfUh2Ue91ywMasldNrCh4">[NEW!] FullFOTA Update Guide</a>
+
+<a href="https://mega.nz/file/LNMUAarY#auGqgn3m-6_s1v3jOQ3W7YiqfKU_2Obn5mGMzbtPXzY">[NEW!] Virtual Port Programming for AT Command Sending and Receiving Guide</a>
+
+<a href="https://mega.nz/file/nQdUlS5S#u9NCOPapYfc6LlCzC2SYSPKORokG3NGMwV7L7u_cjRM">[NEW!] Device Management and Cellular Network Development Guide</a>
+
+<a href="https://mega.nz/file/3d1HlKYL#j3dEHFOHTpaMbogDgn2WCRSiilWNMzila21eZHwvmok">[NEW!] Linux System Time Synchronization Guide </a>
+
+<a href="https://mega.nz/file/mdkU1b6A#gjq-N6__TMZrSTe4oXurworrwDlUsCDCCHJg-pQ2fXk">[NEW!] Open-Source Software Package Cross-Compilation Guide</a>
+
+<a href="https://mega.nz/file/uQ0BkS5Z#uaSgFc8yEbHKuS0_vefbVeeZHEVsfJ27PhehivArQcw">[NEW!] SIM and SMS Development Guide</a>
+
+<a href="https://mega.nz/file/6Q1Q0R5Z#WQyE8ab0PgTkFQDeV_g5qxDom-4KQB2vyvqARyEG09o">[NEW!] Upgrade via LAN Application Note</a>
 
 </details>
 
 ## Description of antenna connection:
 <details>
-   <summary>Show me</summary>
+   <summary>View</summary>
  
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/antenasmall.png?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/rm520n-gl.PNG?raw=true)
@@ -237,3 +290,4 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 ## Specification:
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-1.png?raw=true)
 ![](https://github.com/4IceG/Personal_data/blob/master/5G/quectel_rm520n-gl_5g_specification_v1-0-0_preliminary_20210915-2.png?raw=true)
+
