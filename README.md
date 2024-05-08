@@ -213,7 +213,7 @@ You should already have a desktop icon and start menu shortcut for Qnavigator.
 <details>
    <summary>General</summary>
 
-<a href="https://mega.nz/file/LRVDDYCQ#VFARx9j_0g43LaBS_-4IPDjQwAR55dePl4eVgFQcGXY">[NEW!] Quectel 5G&LTE-Advanced Module Product Overview V7.1</a>
+<a href="https://www2.quectel.com/5GLTEAdvance">[NEW!] Quectel 5G&LTE-Advanced Module Product Overview V7.1</a>
 
 <a href="https://mega.nz/file/TI9yHTjL#iJVMKIMRH-gaIwoSZkUDgmAU3s9hjL3I1brFHeV0t-I">Quectel Product Brochure V7.4</a>
 
