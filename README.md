@@ -5,11 +5,11 @@ You will find Tools, Docs, and Firmware for it here, as well as a .cmd that inst
 ## Windows Autoinstaller:
 ![cmd repo](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/repocmd.png?raw=true)
 
-**[RM520 Resource Package DOWNLOAD](https://mega.nz/file/7V0HTDKA#kgWSmfb2001v4XvIX3f1V0xVK1LjUaCIMa3Y8fmOxwg)**
+**[RM520 Resource Package DOWNLOAD (Coming Soon!)](/null)**
 
 **Note**
 
-Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](https://mega.nz/file/7V0HTDKA#kgWSmfb2001v4XvIX3f1V0xVK1LjUaCIMa3Y8fmOxwg) and by using their download links listed here.
+Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](/null) (New version coming soon) and by using their download links listed here.
 
 **What this does**
 
@@ -32,29 +32,21 @@ All files installed/downloaded will go to C:\Quectel\
 <details>
    <summary>Windows | View</summary>
 
-[Quectel Windows USB Driver(Q) NDIS V2.6.0](https://mega.nz/file/GVMS1D7K#ogA1oLOwhkRlLWDDhisG9p0k1H_jhcAJOesHHV-XKUg) (Recommended)
+[Quectel Windows USB Driver(Q) NDIS V2.7](https://mega.nz/file/zJd1CYbL#OuzK4SaghBZuQ_RLstw--I38179sZM7TkkktL2IIsm4) (Recommended)
 
-[Quectel Windows USB Driver(Q) NDIS V2.4.6](https://mega.nz/file/jFlnkIoC#2HSmvJTVQvcCjN8xYj6G2UxY91khYbLdvTF9NoXRGfQ)
+[Quectel Windows USB Driver(Q) ECM V1.0](https://mega.nz/file/7IEjESSB#5jj1v7F3WWVfy6cFzdvfCHxaoTENMgBW2v_94NtgpoA)
 
-[Quectel Windows USB Driver(Q) MBIM V1.3.1](https://mega.nz/file/XctiBLRQ#TPjrW5AKIcct9giF7aZlaxTwUM9Huwpa0mOls4xP5NE)
+[Quectel Windows USB Driver(Q) MBIM V1.3](https://mega.nz/file/XRc0nZSQ#9hPjcrasgOQ9ej_tWQhvC6_NQC3iZMIdu0t17sz7AHE)
 
-[Quectel Windows USB Driver(Q) RNDIS V1.0.9](https://mega.nz/file/Sclj0C5Q#EJ3xr60g99thcuyVav42bOjs-z_Iu-Qv3hYycrJAjbk)
+[Quectel Windows USB Driver(Q) RNDIS V1.1](https://mega.nz/file/vRN1ERaL#0zp9di4iFEaamkczsmw_Xaxr3fcWS7in9ODXZ73l8Lg)
 
-[QFlash V6.9 EN](https://mega.nz/file/jQNGEBAL#lnrp3G4HEmgcwGTViQzpFm2iNxBYe5k_EkdGRvglJdA) 
+[QFlash V7.0 EN](https://mega.nz/file/CN1RBQ4D#njN402sdwN2BWFxNx1yLw4NTULn4OGR8GB0G8znaCtM) 
 
-[QFlash V6.8 EN](https://mega.nz/file/KdkjUB7S#fjsDkQkV3SKJgMYDs8gnbl_8rRienWtEJK9G-_D36tk)
+[QFlash V6.9 EN](https://mega.nz/file/vdFH0LrB#lnrp3G4HEmgcwGTViQzpFm2iNxBYe5k_EkdGRvglJdA)
 
-[QFlash V6.6 EN](https://mega.nz/file/Lc8E3BLB#RoYzTEdk1TS3EKC_REEPQ18MrNo5c5BFQ7iT18Bx-A4) 
+[QFlash_PCIE_V1.0](https://mega.nz/file/SB9C3JqR#1qrUfTIzL0n-Wwpsnz8MIDjH4rifp5V8Tshax5Te7Ho)
 
-[QFlash V6.4 EN](https://mega.nz/file/PEFT1A5Z#uGUNnpcKtKwmd_lw8POnY51Jr2LSLnU-biQNKhhsnL4) 
-
-[QFlash V5.8 EN](https://drive.google.com/file/d/1j3Wy_znL2ajt2_Rc4gejgoJRcp8ieQLm/view?usp=sharing) (Not included in .cmd)
-
-[QFlash_PCIE_V1.0](https://mega.nz/file/SB9C3JqR#1qrUfTIzL0n-Wwpsnz8MIDjH4rifp5V8Tshax5Te7Ho) (Not included in .cmd)
-
-[Qnavigator V1.6.10](https://mega.nz/file/GdEWHSLa#vYQnNUMArmWwxfzfn6gvbFWI52jtNbnD9Atr0COEIqo)
-
-[Qnavigator V1.6.9.1](https://mega.nz/file/DQFSmDob#0o-PKKEUcdLYpi4UNBQ90IowzQyPduqdKaVVjFcYAi0)
+[Qnavigator V1.6.10](https://mega.nz/file/2RMFAbCT#zq3r9TmEF8REXK6PkuAXFiuyPI5Tw4oqYnHGEiSmoD4)
 
 <a href="https://drive.google.com/file/d/1xVw5IBowlKn7HPqfyYfoZdBx1p5Xs7aU/view?usp=sharing" title="QCOM_V1.6">QCOM V1.6</a>
 
@@ -87,14 +79,26 @@ All files installed/downloaded will go to C:\Quectel\
 
 | Date | Version | Link |
 | --- | --- | --- |
-| `2023-11-06` | *RM520NGLAAR03A02M4GA* | <a href="https://mega.nz/file/3UVHwbJZ#XxVYTEuPJJOxz1WrSHmkdTbNMvziU9LIDTPIbTh2rkg">Download</a> |
-| `2023-07-25` | *RM520NGLAAR03A03M4G_01.200.01.200* | <a href="https://mega.nz/file/bEdwAQwI#DVPT-QX60A7pSFVXxxukMDSXTZswTl39XlTEH_NWWpM">Download</a> |
-| `2023-07-20` | *RM520NGLAAR01A08M4G_01.200.01.200* | <a href="https://mega.nz/file/OZFkAC6C#xLaLs8qeOMOmic1wHLROrZedZ3USmNzGrSkFddOiAzk">Download</a> |
-| `2023-07-12` | *RM520NGLAAR01A07M4G_01.203.01.203* | <a href="https://mega.nz/file/LJd2yYxQ#lPdFog6G_5RFdKCltnpGKrblvEFOiW-Ctumz72LNMns">Download</a> |
-| `2023-05-12` | *RM520NGLAAR03A01M4G_01.202.01.202* | <a href="https://mega.nz/file/mUsXRBaI#ZIbLL2GWnTG_j8RzMaHV4fN5P6v4zBKc1MLfGX5BXH0">Download</a> |
-| `2023-03-27` | *RM520NGLAAR01A07M4G_01.201.01.201* | <a href="https://mega.nz/file/yRMH1YAB#-vDBJ4ywc4aM68ECG2Sef2i-5VuCHk-is05Y5HRyUJM">Download</a> |
-| `2023-01-20` | *RM520NGLAAR01A06M4G_12.001.12.001* | <a href="https://mega.nz/file/2NVlUSiK#V7Gt1KHpbQIw8J66wo07PMqamGjQK1uXfu1etbjENvs">Download</a> |
-| `2022-12-26` | *RM520NGLAAR01A06M4G_01.200.01.200* | <a href="https://mega.nz/file/SBVDCDbB#oGc7xp0BwjweSqACmxWHjlAZwVuBNtNa-v1z6ob43oQ">Download</a> |
+| `2024-04-03` | *RM520NGLAAR01A08M4G* | <a href="https://mega.nz/file/ucclVCLT#chq0HzixUTPoNpG9G2duv5Xhj2JChz2ALa6QJpZJ3kY">Download</a> |
+| `2024-02-01` | *RM520NGLAAR01A08M4G* | <a href="https://mega.nz/file/2NdzWKJJ#n4EbQkh17Pwfkfxzz-ZbjN5MFK6fJVRgLx6Chh43QRk">Download</a> |
+| `2023-07-20` | *RM520NGLAAR01A08M4G* | <a href="https://mega.nz/file/SYMh0YwI#xLaLs8qeOMOmic1wHLROrZedZ3USmNzGrSkFddOiAzk">Download</a> |
+| `2023-07-12` | *RM520NGLAAR01A07M4G* | <a href="https://mega.nz/file/LJd2yYxQ#lPdFog6G_5RFdKCltnpGKrblvEFOiW-Ctumz72LNMns">Download</a> |
+| `2023-03-27` | *RM520NGLAAR01A07M4G* | <a href="https://mega.nz/file/bFdVlJAB#-vDBJ4ywc4aM68ECG2Sef2i-5VuCHk-is05Y5HRyUJM">Download</a> |
+| `2023-01-20` | *RM520NGLAAR01A06M4G* | <a href="https://mega.nz/file/TJ8m1QoB#V7Gt1KHpbQIw8J66wo07PMqamGjQK1uXfu1etbjENvs">Download</a> |
+| `2022-12-26` | *RM520NGLAAR01A06M4G* | <a href="https://mega.nz/file/7dVlmaRL#oGc7xp0BwjweSqACmxWHjlAZwVuBNtNa-v1z6ob43oQ">Download</a> |
+
+</details>
+
+<details>
+   <summary>Certified | View</summary>
+
+| Date | Version | Link |
+| --- | --- | --- |
+| `2024-03-28` | *RM520NGLAAR03A03M4G* | <a href="https://mega.nz/file/PcV0DDzA#aeQkP3V6WnzvO5BUPTw0Vm1Zdb5n9AA0Zb3ebSsHYlM">Download</a> |
+| `2024-01-02` | *RM520NGLAAR03A01M4G* | <a href="https://mega.nz/file/fdE1iY4T#4q_gz03GbQZ6mR3-SdQVptelwNPrklVSPWa1VcH9pVo">Download</a> |
+| `2023-11-26` | *RM520NGLAAR03A02M4GA* | <a href="https://mega.nz/file/uZsCkCyL#XxVYTEuPJJOxz1WrSHmkdTbNMvziU9LIDTPIbTh2rkg">Download</a> |
+| `2023-07-25` | *RM520NGLAAR03A03M4G* | <a href="https://mega.nz/file/TJFSiBqJ#DVPT-QX60A7pSFVXxxukMDSXTZswTl39XlTEH_NWWpM">Download</a> |
+| `2023-05-12` | *RM520NGLAAR03A01M4G* | <a href="https://mega.nz/file/yd8ATTCb#ZIbLL2GWnTG_j8RzMaHV4fN5P6v4zBKc1MLfGX5BXH0">Download</a> |
 
 </details>
 
@@ -103,7 +107,7 @@ All files installed/downloaded will go to C:\Quectel\
    
 | Date | Version | Link | Full Project |
 | --- | --- | --- | --- |
-| `R01.00.04_2023-11-07` | *Arixolink RM520NGLAAR03A01M4G OCPU_BETA_20230419C* | [Download](https://mega.nz/file/vZsyhaoA#LOav6ZB9ZK15Vm8Nph1s6LpbmHTZNn0f8MsjvFcby1c) | [Download](https://mega.nz/file/CdVimDjL#EzL7rK5hy2VGXdj31R3jAWFDkncnvwxviaqVRzPcTY0)
+| `R01.00.04_2023-11-07` | *Arixolink RM520NGLAAR03A01M4G OCPU_BETA_20230419C* | [Download](https://mega.nz/file/fZcUjCLK#LOav6ZB9ZK15Vm8Nph1s6LpbmHTZNn0f8MsjvFcby1c) | [Download](https://mega.nz/file/mRMVjSxB#EzL7rK5hy2VGXdj31R3jAWFDkncnvwxviaqVRzPcTY0)
    
 </details>
 
