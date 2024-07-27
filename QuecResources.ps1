@@ -47,7 +47,7 @@ Set-ConsoleSizeAndPosition -width 150 -height ([console]::LargestWindowHeight)
 Function Set-ConsoleSize {
     param (
         [int]$width = 120,
-        [int]$height = 30
+        [int]$height = 40
     )
     
     $host.UI.RawUI.WindowSize = New-Object Management.Automation.Host.Size ($width, $height)
@@ -151,6 +151,25 @@ If (-Not (Test-Path -Path $quectelDir)) {
     New-Item -Path $quectelDir -ItemType Directory
 }
 
+# List of available colors
+$colors = @(
+    "Blue",
+    "Green", "Cyan", "Red", "Magenta", "Yellow"
+)
+
+# Function to write text in a random color
+Function Write-RandomColorText {
+    param (
+        [string]$text
+    )
+    
+    # Select a random color from the list
+    $randomColor = Get-Random -InputObject $colors
+    
+    # Write the text with the random color
+    Write-Host $text -ForegroundColor $randomColor
+}
+
 # Main Menu
 Function Main-Menu {
     Write-Log "Displaying Main Menu."
@@ -214,18 +233,21 @@ Write-Host "                                  .@@@@@@.                  "
 Write-Host "                                    :@@@@@*.                "
 Write-Host "                                      .=@@@@@-              "
 Write-Host "                                           :+##+.           "
-
-
-    Write-Host "Main Menu"
+    Write-Host "Welcome to iamromulan's Quectel Software Deployment Tool"
+    Write-Host "Visit https://github.com/iamromulan/ for more" -ForegroundColor Green
+	sleep 4
+	cls
+	Write-Host "Main Menu"
     Write-Host "Visit https://github.com/iamromulan/ for more" -ForegroundColor Green
     Write-Host "Please select an option:"
-	sleep 2
-    Write-Host "1) Install/Uninstall Drivers"
-    Write-Host "2) Install/Uninstall Qflash 7.0"
-    Write-Host "3) Install/Uninstall Qnavigator 1.6.10"
-    Write-Host "4) Firmware downloads"
-    Write-Host "5) View AT Command Docs and other resources"
-    Write-Host "6) Exit"
+Write-Host "=============================================================" -ForegroundColor Green
+    Write-RandomColorText "1) Install/Uninstall Drivers"
+    Write-RandomColorText "2) Install/Uninstall Qflash 7.0"
+    Write-RandomColorText "3) Install/Uninstall Qnavigator 1.6.10"
+    Write-RandomColorText "4) Firmware downloads"
+    Write-RandomColorText "5) View AT Command Docs and other resources"
+    Write-RandomColorText "6) Exit"
+Write-Host "=============================================================" -ForegroundColor Green
     $choice = Read-Host "Please select a choice"
     Switch ($choice) {
         1 { Install-Drivers-Menu }
