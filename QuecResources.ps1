@@ -5,6 +5,60 @@ If (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Exit
 }
 
+# Add assembly for System.Windows.Forms to access screen properties
+Add-Type -AssemblyName System.Windows.Forms
+
+# Function to set console window size and position
+Function Set-ConsoleSizeAndPosition {
+    param (
+        [int]$width = 75,
+        [int]$height = [console]::LargestWindowHeight
+    )
+    
+    # Set the console size
+    $host.UI.RawUI.WindowSize = New-Object Management.Automation.Host.Size($width, $height)
+
+    # Get the handle of the current console window
+    $consolePtr = [System.Diagnostics.Process]::GetCurrentProcess().MainWindowHandle
+
+    # Use user32.dll to move the window
+    Add-Type @"
+        using System;
+        using System.Runtime.InteropServices;
+        public class User32 {
+            [DllImport("user32.dll", SetLastError = true)]
+            public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
+        }
+"@
+
+    # Move the console window to the top edge of the screen and up by 20 pixels
+    [User32]::MoveWindow($consolePtr, 0, -20, $host.UI.RawUI.WindowSize.Width * 8, $host.UI.RawUI.WindowSize.Height * 14, $true)
+}
+
+# Set the console size and position
+Set-ConsoleSizeAndPosition -width 150 -height ([console]::LargestWindowHeight)
+
+
+# Set console background color to black and text color to white
+[console]::BackgroundColor = "Black"
+[console]::ForegroundColor = "White"
+
+# Function to set console window size
+Function Set-ConsoleSize {
+    param (
+        [int]$width = 120,
+        [int]$height = 30
+    )
+    
+    $host.UI.RawUI.WindowSize = New-Object Management.Automation.Host.Size ($width, $height)
+}
+
+# Set the console size to fit the longest line and maximum height of the console
+Set-ConsoleSize -width 75 -height ([console]::LargestWindowHeight)
+
+# Clear the screen to apply the color changes
+Clear-Host
+
 # Function to write to log
 Function Write-Log {
     param (
@@ -101,9 +155,71 @@ If (-Not (Test-Path -Path $quectelDir)) {
 Function Main-Menu {
     Write-Log "Displaying Main Menu."
     cls
+Write-Host "                           .%+:                             "
+Write-Host "                             .*@@@-.                        "
+Write-Host "                                  :@@@@-                    "
+Write-Host "                                     @@@@#.                 "
+Write-Host "                                      -@@@@#.               "
+Write-Host "       :.                               %@@@@: -#           "
+Write-Host "      .+-                                #@@@@%.+@-         "
+Write-Host "      .#- .                               +@@@@# #@-        "
+Write-Host "    -@*@*@%                                @@@@@::@@=       "
+Write-Host ".+%@@@@@@@@@%=.                            =@@@@# #@@- ..   "
+Write-Host "    .@@@@@:                                :@@@@@ =@@@..%=  "
+Write-Host "    -::@-.+.                                @@@@@.=@@@- =@- "
+Write-Host "      .@-                                  .@@@@@:.@@@*  @@."
+Write-Host "      .%-                                  -@@@@@:=@@@@  @@#"
+Write-Host "      .#-         .%@@@@@@#.               +@@@@@.#@@@@  @@@"
+Write-Host "      .*-            .@@@@@@@@@@=.         @@@@@@ @@@@@  @@@"
+Write-Host "       :.             .%@@@@@@@@@@@%.     .@@@@@+:@@@@@  @@@"
+Write-Host "                        -@@@@@@@@@@@@@@@..@@@@@@.-@@@@@ .@@@"
+Write-Host "                         -@@@@@@@@@@%.  .@@@@@@. @@@@@+ =@@@"
+Write-Host "                           =@@@@@@@@*  .@@@@@@. @@@@@@..@@@@"
+Write-Host "                            #@@@@@@@@-*@@@@@%..@@@@@@+ #@@@@"
+Write-Host "                            @@@@@@:.-@@@@@@.  @@@@@@= %@@@@@"
+Write-Host "                           .@@@@. *@@@@@@- .+@@@@@@-.@@@@@@+"
+Write-Host "                           %@@. =@@@@@*.  +@@@@@@%.-@@@@@@% "
+Write-Host "                          .@@ .@@@@@=  :@@@@@@@@..@@@@@@@=  "
+Write-Host "                          =@.+@@@@@. -@@@@@@@*.:@@@@@@@*.   "
+Write-Host "                          %.*@@@@= .@@@@@@@-.:@@@@@@@+.     "
+Write-Host "                          ..@@@@= .@@@@@@: #@@@@@@@:        "
+Write-Host "                           .@@@@  +@@@@..%@@@@@+.           "
+Write-Host "                           .@@@.  @@@@.:@@@@+.              "
+Write-Host "                            @@@.  @@@. @@@*    .@.          "
+Write-Host "                            :@@@  %@@..@@#.    *@           "
+Write-Host "                         -*: .@@* :@@. @@.  -..@@           "
+Write-Host "                       =@@@@@@.*@- :@%  @* =@:=@#           "
+Write-Host "                      .@@@-+@@@@:%@..%- ...@%:@@:           "
+Write-Host "                      .@@.  @@-%@:      .%@@*@@%.           "
+Write-Host "                       :@@ :+   *@     *@@#*@@@.            "
+Write-Host "                                     =@@@.@@@@              "
+Write-Host "                                  .*@@@:=@@@@:              "
+Write-Host "                                .@@@@:.@@@@@:               "
+Write-Host "                              .@@@@#.-@@@@@.                "
+Write-Host "                             #@@@@: =@@@@@-                 "
+Write-Host "                           .@@@@@..@@@@@@*                  "
+Write-Host "                          -@@@@@. @@@@@@#.                  "
+Write-Host "                         -@@@@@  @@@@@@%                    "
+Write-Host "                         @@@@@. #@@@@@@.                    "
+Write-Host "                        :@@@@# =@@@@@@%                     "
+Write-Host "                        @@@@@: @@@@@@@:                     "
+Write-Host "                        *@@@@  @@@@@@@.                     "
+Write-Host "                        .@@@@  @@@@@@@                      "
+Write-Host "                         #@@@. @@@@@@*                      "
+Write-Host "                          @@@# @@@@@@@                      "
+Write-Host "                           .@@+=@@@@@@.                     "
+Write-Host "                                *@@@@@@                     "
+Write-Host "                                 :@@@@@=                    "
+Write-Host "                                  .@@@@@@.                  "
+Write-Host "                                    :@@@@@*.                "
+Write-Host "                                      .=@@@@@-              "
+Write-Host "                                           :+##+.           "
+
+
     Write-Host "Main Menu"
-    Write-Host "Visit https://github.com/iamromulan/ for more"
+    Write-Host "Visit https://github.com/iamromulan/ for more" -ForegroundColor Green
     Write-Host "Please select an option:"
+	sleep 2
     Write-Host "1) Install/Uninstall Drivers"
     Write-Host "2) Install/Uninstall Qflash 7.0"
     Write-Host "3) Install/Uninstall Qnavigator 1.6.10"
@@ -167,7 +283,7 @@ Function Install-Driver {
         Write-Log "ERROR: Failed to extract or install $fileName"
     }
     Remove-Item -Path (Join-Path -Path $outputDir -ChildPath $setupExe) -Force
-    Main-Menu
+    Install-Drivers-Menu
 }
 
 Function Install-Qflash-Menu {
