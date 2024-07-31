@@ -2,23 +2,22 @@
 The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications.
 
 You will find Tools, Docs, and Firmware for it here, as well as a .cmd that installs everything for windows.
-## Windows Autoinstaller:
-![cmd repo](https://github.com/iamromulan/quectel-rgmii-configuration-notes/blob/main/images/repocmd.png?raw=true)
+## QuecDeploy:
+![Screenshot 2024-07-31 130755](https://github.com/user-attachments/assets/dc351b48-3682-4181-b33c-843136221d1c)
 
-**[RM520 Resource Package DOWNLOAD (Coming Soon!)](/null)**
+**[QuecDeploy DOWNLOAD](https://github.com/iamromulan/rm520n-gl/releases)**
 
 **Note**
 
-Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [RM520 Resource Package](/null) (New version coming soon) and by using their download links listed here.
+Unfortunately due to GitHub's 100MB per file limit, Qflash and the firmware directory couldn't be uploaded to the repository. It is however included in the latest [QuecDeploy](https://github.com/iamromulan/rm520n-gl/releases) and by using their download links listed here.
 
 **What this does**
 
-It is a menu style cmd script that will let you install Qflash, Qnav, Qcom, and ADB tools. It will also let you download firmware and PDFs. It heavily relies on megatools, a cli for downloading files from mega.nz
-It will temporarily download megatools to the directory its ran at first use and delete them when exiting using the menu option.
+It is a menu style Powershell script that will let you install Qflash and Qnav. adb abd fastboot are now automaticly included with Qflash! It will also let you download firmware and view PDF for several modems. It heavily relies on megatools, a cli for downloading files from mega.nz
 All files installed/downloaded will go to C:\Quectel\
 
 # Table of Contents
-- [Windows Autoinstaller](#windows-autoinstaller)
+- [QuecDeploy](#quecdeploy)
 - [Toolz](#toolz)
 - [Firmware](#firmware)
 - [Firmware update instructions](#firmware-update-instructions)
