@@ -39,7 +39,7 @@ All files installed/downloaded will go to C:\Quectel\
 
 [Quectel Windows USB Driver(Q) RNDIS V1.1](https://mega.nz/file/vRN1ERaL#0zp9di4iFEaamkczsmw_Xaxr3fcWS7in9ODXZ73l8Lg)
 
-[QFlash V7.0 EN](https://mega.nz/file/CN1RBQ4D#njN402sdwN2BWFxNx1yLw4NTULn4OGR8GB0G8znaCtM) 
+[QFlash V7.1 EN](https://mega.nz/file/bdUWiKSQ#7RPymUcm7Rgdjf9mRsWjuf9zXia5qxV7NZWMLruvb5A) 
 
 [QFlash V6.9 EN](https://mega.nz/file/vdFH0LrB#lnrp3G4HEmgcwGTViQzpFm2iNxBYe5k_EkdGRvglJdA)
 
