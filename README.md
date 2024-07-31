@@ -1,7 +1,7 @@
 # RM520N-GL
 The Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications.
 
-You will find Tools, Docs, and Firmware for it here, as well as a .cmd that installs everything for windows.
+You will find Tools, Docs, and Firmware for it here, as well as a .exe (QuecDeploy) that installs everything for windows.
 ## QuecDeploy:
 ![Screenshot 2024-07-31 130755](https://github.com/user-attachments/assets/dc351b48-3682-4181-b33c-843136221d1c)
 
