@@ -83,6 +83,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 | Date | Version | Hint | Link |
 | --- | --- | --- | --- |
+| `2024-04-03` | *RM520NGLAAR01A08M4G_01.203.01.203* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1pvrxZ8-A3HrJ2fwFmDS-E8UwOoz8Z42U/view?usp=sharing">Download</a> |
 | `2024-02-01` | *RM520NGLAAR01A08M4G_01.202.01.202* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/19oO1TA58z1xeloGLL6IogrqBFjnRFmoL/view?usp=sharing">Download</a> |
 | `2023-07-20` | *RM520NGLAAR01A08M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1HHJ9FR1TgmqzkXhqQ2fq67OuvvhdShKO/view?usp=drive_link">Download</a> |
 | `2023-07-12` | *RM520NGLAAR01A07M4G_01.203.01.203* | | <a href="https://drive.google.com/file/d/1CjuJyeSIjM8Mh0aNL-nk7f1nryyQrE-U/view?usp=sharing">Download</a> |
