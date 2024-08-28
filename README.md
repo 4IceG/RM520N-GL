@@ -71,6 +71,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 | Date | Version | Hint | Link |
 | --- | --- | --- | --- |
+| `2024-08-09` | *RM520NGLAAR03A04M4G_01.202.01.202* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1nxSlNFDswOYnhsx_0yM78iewsvdBD69V/view?usp=sharing">Download</a> |
 | `2024-03-28` | *RM520NGLAAR03A03M4G_01.201.01.201* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1Ta5w3-bOxGe0sudybDyZVUpKbCfExIfL/view?usp=sharing">Download</a> |
 | `2023-11-06` | *RM520NGLAAR03A02M4GA* | | <a href="https://drive.google.com/file/d/1v3-lSQCeE0Wls7EXoOgmWn6wvATb5zED/view?usp=drive_link">Download</a> |
 | `2023-07-25` | *RM520NGLAAR03A03M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1EAJc7d3GXOnuCLCMHRZ65TXSBE5nDaXP/view?usp=drive_link">Download</a> |
@@ -83,6 +84,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 | Date | Version | Hint | Link |
 | --- | --- | --- | --- |
+| `2024-06-20` | *RM520NGLAAR01A08M4G_01.204.01.204* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1Geo5NIgFDmhKH5StLNu5X1jt7QPy1Bt7/view?usp=sharing">Download</a> |
 | `2024-04-03` | *RM520NGLAAR01A08M4G_01.203.01.203* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1pvrxZ8-A3HrJ2fwFmDS-E8UwOoz8Z42U/view?usp=sharing">Download</a> |
 | `2024-02-01` | *RM520NGLAAR01A08M4G_01.202.01.202* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/19oO1TA58z1xeloGLL6IogrqBFjnRFmoL/view?usp=sharing">Download</a> |
 | `2023-07-20` | *RM520NGLAAR01A08M4G_01.200.01.200* | | <a href="https://drive.google.com/file/d/1HHJ9FR1TgmqzkXhqQ2fq67OuvvhdShKO/view?usp=drive_link">Download</a> |
