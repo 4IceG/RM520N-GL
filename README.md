@@ -45,7 +45,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 <details>
    <summary>Linux | Show me</summary>
 
-<a href="https://github.com/4IceG/RM520N-GL/blob/main/Toolz/QFirehose_Linux_and_Android_V1.5.zip" title="QFirehose_Linux_Android_V1.5">QFirehose V1.5</a>
+<a href="https://github.com/4IceG/RM520N-GL/blob/main/Toolz/QFirehose_Linux_and_Android_V1.5.zip" title="QFirehose_Linux_Android_V1.5.1">QFirehose V1.5.1</a>
 
 <a href="https://github.com/4IceG/RM520N-GL/raw/refs/heads/main/Toolz/QFirehose_Linux_and_Android_V1.4.21.zip" title="QFirehose_Linux_Android_V1.4.21">QFirehose V1.4.21</a>
 
