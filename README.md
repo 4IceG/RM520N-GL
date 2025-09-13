@@ -77,6 +77,7 @@ Quectel RM520N-GL is 5G IoT module specially optimized for IoT/eMBB applications
 
 | Date | Version | Hint | Link |
 | --- | --- | --- | --- |
+| `2025-06-12` | *RM520NGLAAR03A04M4G_A0.301.A0.301* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1zUbh54LZcxsz0j1GtjezpSFN0Eu3X-pD/view?usp=sharing">Download</a> |
 | `2024-10-22` | *RM520NGLAAR03A04M4G_01.204.01.204* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1H1Ys3PyH_1UJW5fK_QdgXWvvxory7Bfj/view?usp=sharing">Download</a> |
 | `2024-08-09` | *RM520NGLAAR03A04M4G_01.202.01.202* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1nxSlNFDswOYnhsx_0yM78iewsvdBD69V/view?usp=sharing">Download</a> |
 | `2024-03-28` | *RM520NGLAAR03A03M4G_01.201.01.201* | `Firmware cannot be downgraded to ver. released before RM520NGLAAR01A07M4G_01.200.01.200` | <a href="https://drive.google.com/file/d/1Ta5w3-bOxGe0sudybDyZVUpKbCfExIfL/view?usp=sharing">Download</a> |
